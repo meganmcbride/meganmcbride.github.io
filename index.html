@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html lang="en-us">
-   <head>
-       <title>
-          Test Page 
-       </title>
-   </head> 
-   <body>
-       <h1>
-           Test Page
-       </h1>
-       <p>
-           This is a paragraph.
-       </p>
-   </body>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Assignment portal for Megan McBride's CIT 230 class at BYU-Idaho">
+
+        <script src="js/date.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <title>
+            CIT 230 | Megan McBride | BYU-I
+        </title>
+    </head> 
+    <body onload="UpdateDates()">
+
+        <header>
+
+            <div id="imagecontainer"><img src="img/portrait.jpg" alt="A portrait of Megan McBride"></div>
+
+            <h1>Megan McBride</h1> 
+
+        </header>
+
+        <main>
+
+            <h2>CIT 230: Assignment Portal</h2>
+            <hr>
+
+            <ul>
+                <li>Lesson 02: <a href="https://meganmcbride.github.io">Assignment Link</a></li>
+                <li>Lesson 03: <a href="https://meganmcbride.github.io">Assignment Link</a></li>
+                <li>Lesson 04: <a href="https://meganmcbride.github.io">Link</a> | <a href="https://meganmcbride.github.io">Link</a></li>
+            </ul>
+
+        </main>
+
+        <footer>
+            <small>
+                &copy; <span id="copyrightdate"></span> | Megan McBride | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            </small>
+
+            <br>
+
+            <small id="lastupdated">
+                Last Updated: <span id="datemodified"></span>
+            </small>
+        </footer>
+
+    </body>
 </html>
