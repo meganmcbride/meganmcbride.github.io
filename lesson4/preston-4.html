@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Preston Idaho page for Blu-Weather.com">
+
+        <script src="js/date.js"></script>
+        <script src="js/menutoggle.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+        <title>
+            Preston, ID Weather | Weather | Blu-Weather.com
+        </title>
+    </head> 
+    
+    
+    <body onload="UpdateDates()">
+    
+        <div class=wrapper">
+
+            <header>
+
+                <div class="logoflex">
+                    <div class="logodiv">
+                        <img src="images/weatherlogo.jpg" alt="BluWeather site logo">
+                    </div>
+                    <div class="headerflexcolumn">
+                        <h1>BluWeather</ht>
+                        <h3>Weather that doesn't make you blue</h3>
+                    </div>
+                </div>
+
+                <nav>
+                    <ul class="navigation">
+
+                        <li><a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#" class="currentpage">Preston</a></li>
+                        <li><a href="#">Soda Springs</a></li>
+                        <li><a href="#">Fish Haven</a></li>
+                        <li><a href="#">Storm Center</a></li>
+                        <li><a href="#">Gallery</a></li>
+
+                    </ul>
+                </nav>
+
+
+            </header>
+
+            
+            <main>
+
+                <h2>Preston Idaho</h2>
+
+                <div class="bodycontent">Hero w/ weather summary</div>
+                <div class="bodycontent">5 Day Forecast</div>
+                <div class="bodycontent">Article</div>
+                <div class="bodycontent">Contact Information</div>
+
+            </main>
+
+        </div>
+
+            <footer>
+                <div class="footercentering">
+                    <small>
+                        &copy; <span id="copyrightdate"></span> BluWeather | Megan McBride <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+                    </small>
+        
+                    <br>
+        
+                    <small id="lastupdated">
+                        Last Updated: <span id="datemodified"></span>
+                    </small>
+                </div>
+            </footer>
+    
+    </body>
+
+</html>
