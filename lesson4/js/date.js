@@ -6,15 +6,17 @@ function GetCurrentYear()
     document.getElementById("copyrightdate").innerHTML = currentYear;
 }
 
-function GetModifiedDate()
+function GetCurrentDate()
 {
-    var modifiedDate = document.lastModified;
+    var date = new Date();
 
-    document.getElementById("datemodified").innerHTML = modifiedDate;
+    var dayOfWeek = date.toLocaleDateString("en-gb", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }); 
+
+    document.getElementById("currentdate").innerHTML = dayOfWeek;
 }
 
 function UpdateDates()
 {
     GetCurrentYear();
-    GetModifiedDate();
+    GetCurrentDate();
 }
