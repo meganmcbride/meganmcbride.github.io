@@ -18,6 +18,8 @@ header img {
     border: 7px solid #FFFFFF;
 
     border-radius: 7px;
+
+    max-width: 50%;
 }
 
 body {
