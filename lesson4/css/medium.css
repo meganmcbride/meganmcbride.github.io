@@ -5,6 +5,10 @@
         float: left; 
 
         max-width: 100%;
+
+        left: 0px;
+
+        right: 0px;
     
     }
 
@@ -17,6 +21,8 @@
     nav ul {
 
         flex-direction: row;
+
+        justify-content: left;
 
         max-width: 960px;
 
@@ -66,9 +72,9 @@
 
         position: relative;
     
-        bottom: 10px;
+        top: 5px;
     
-        left: 37px;
+        right: 20px;
     
     }
 
@@ -82,7 +88,9 @@
     
         position: relative;
     
-        top: 10px;
+        bottom: 5px;
+
+        right: 20px;
     }
 
 }
