@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Preston Idaho page for Blu-Weather.com">
+
+        <script src="js/date.js"></script>
+        <script src="js/menutoggle.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+        <title>
+            Preston, ID Weather | Weather | Blu-Weather.com
+        </title>
+    </head> 
+    
+    
+    <body onload="UpdateDates()">
+    
+        <div class="wrapper">
+
+            <div class="pancakehide">
+
+                <span>Saturday = Preston Pancakes in the Park!</span>
+                <br>
+                <span>9 AM Saturday at the city park.</span>
+
+            </div>
+
+            <header>
+                
+                <div class="logoflex">
+                    <div class="logodiv">
+                        <img src="images/weatherlogo.jpg" alt="BluWeather site logo">
+                    </div>
+                    <div class="headerflexcolumn">
+                        <h1>BluWeather Idaho</h1>
+                        <h3>It won't make you blue</h3>
+                    </div>
+                </div>
+
+                <nav>
+                    <ul class="navigation">
+
+                        <li><a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#" class="currentpage">Preston</a></li>
+                        <li><a href="#">Soda Springs</a></li>
+                        <li><a href="#">Fish Haven</a></li>
+                        <li><a href="#">Storm Center</a></li>
+                        <li><a href="#">Gallery</a></li>
+
+                    </ul>
+                </nav>
+
+
+            </header>
+
+            
+            <main>
+
+                <h2>Preston Idaho</h2>
+
+                <div class="floatingcurrentweather">
+
+                        Weather Summary
+                        <hr>
+                        Currently: <span class="highlight">Sunny</span>
+                        <br>
+                        High: <span class="highlight">75° F</span>
+                        <br>
+                        Wind Chill: <span class="highlight">1° F</span>
+                        <br>
+                        Humidity: <span class="highlight">20%</span>
+                        <br>
+                        Wind Speed: <span class="highlight">3 MPH</span>
+
+                </div>
+
+                <div class="townbanner"><img src="images/smalltown.jpg" alt="Photo of Main Street in Preston" class="bannerimage"></div>
+
+                <div class="fivedaytable">
+
+                <h3>5 Day Forecast</h3>
+
+                <table>
+                    <tr>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="images/sunny.png" alt="Sunny weather icon">
+                            <br>
+                            <span>75° F</span>
+                        </td>
+                        <td>
+                            <img src="images/sunny.png" alt="Sunny weather icon">
+                            <br>
+                            <span>72° F</span>
+                        </td>
+                        <td>
+                            <img src="images/overcast.png" alt="Overcast weather icon">
+                            <br>
+                            <span>65° F</span>
+                        </td>
+                        <td>
+                            <img src="images/sunny.png" alt="Sunny weather icon">
+                            <br>
+                            <span>78° F</span>
+                        </td>
+                        <td>
+                            <img src="images/overcast.png" alt="Overcast weather icon">
+                            <br>
+                            <span>67° F</span>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+                <div class="bodycontent">
+                    <img src="images/cabin.jpg" alt="Image of a house" class="articleimage">
+
+                    <h4>Preparing Your Home for the Cold Season</h4>
+
+                    <span class="authorattribution">by Megan McBride</span>
+
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        <div class="contactparent">
+            <div class="contact">
+                <img src="images/preston.jpg" alt="Map of Preston showing BluWeather's office location" class="officemap">
+
+                <div class="contacttext">
+                    <span class="contactlinebreaks"><br>
+                    <br>
+                    <br></span>
+                    <strong>BluWeather</strong>
+                    <br>
+                    <span><img src="images/locationicon.png" alt="GPS location icon">194 N 2nd W</span>
+                    <br>
+                    <span>Preston, ID 83263</span>
+
+                    <br>
+                    <br>
+
+                    <span>&#9742; 555-555-5555</span>
+                    <br>
+                    <span>&#9993; <a href="mailto:bluweather@gmail.com">bluweather@gmail.com</a></span>
+                    <br>
+                    <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="Facebook icon"></a>
+                    <a href="https://www.twitter.com/"><img src="images/twittericon.png" alt="Twitter icon"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagramicon.png" alt="Instagram icon"></a>
+                    <a href="https://www.youtube.com/"><img src="images/youtubeicon.png" alt="Youtube icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="footercentering">
+
+                <small>
+                    &copy; <span id="copyrightdate"></span> BluWeather | Megan McBride <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+                </small>
+    
+                <br>
+    
+                <small id="lastupdated">
+                    <span id="currentdate"></span>
+                </small>
+            </div>
+        </footer>
+    
+    </body>
+
+</html>
