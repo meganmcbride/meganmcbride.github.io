@@ -34,4 +34,7 @@ function UpdateDates()
     GetCurrentYear();
     GetCurrentDate();
     ShowAnnouncement();
+    calculateWindChill()
 }
+
+window.onload(UpdateDates());
