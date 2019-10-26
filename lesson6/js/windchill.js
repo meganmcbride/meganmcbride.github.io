@@ -15,5 +15,3 @@ function calculateWindChill()
         document.getElementById("windchill").innerHTML = windChill.toFixed(2) + "° F";
     }    
 }
-
-window.onload = calculateWindChill();
