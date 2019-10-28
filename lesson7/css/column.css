@@ -1,0 +1,18 @@
+.column {
+
+
+}
+
+.grid {
+
+    justify-content: center;
+
+    text-align: center;
+
+    display: grid; 
+
+    grid-auto-columns: 300px;
+
+
+
+}
