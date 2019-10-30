@@ -1,0 +1,34 @@
+@media (min-width: 992px)
+{
+
+    main {
+
+        font-size: 1.1em;
+
+    }
+
+    .weather-gallery-grid {
+
+        display: grid;
+    
+        grid-template-columns: 1fr 1fr 1fr;
+
+        max-width: 1500px;
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+        justify-items: center;
+
+        padding-bottom: 20px;
+    
+    }
+
+    .gallery-figure:hover {
+        
+        box-shadow: 0 0 50px #333;
+    
+    }
+
+}
