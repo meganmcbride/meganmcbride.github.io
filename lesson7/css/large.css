@@ -13,7 +13,7 @@
     
         grid-template-columns: 1fr 1fr 1fr;
 
-        max-width: 1500px;
+        max-width: 960px;
 
         margin-left: auto;
 
@@ -28,6 +28,20 @@
     .gallery-figure:hover {
         
         box-shadow: 0 0 50px #333;
+    
+    }
+
+    .gallery-figure {
+
+        margin-left: 10px;
+
+        margin-right: 10px;
+
+    }
+
+    .gallery-image {
+
+        max-width: 300px;
     
     }
 
