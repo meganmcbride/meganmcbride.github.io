@@ -1,0 +1,179 @@
+@media (min-width: 768px)
+{
+    .contactlinebreaks {
+
+        display: block;
+    
+    }
+
+    .bannerimage {
+    
+        margin-bottom: 0px;
+    
+    }
+
+    .articleimage {
+
+        padding-left: 15px;
+
+        padding-bottom: 15px;
+
+        padding-right: 10px;
+
+        padding-top: 30px;
+
+        width: 100%;
+    }
+
+    .officemap {
+
+        display: inline;
+    
+    }
+
+    .fivedaytable {
+
+        display: block;
+
+        margin-bottom: 20px;
+    
+    }
+
+    .bodycontent img {
+
+        float: right;
+    
+    }
+
+    header img {
+
+        float: left; 
+
+        max-width: 100%;
+
+        left: 0px;
+
+        right: 0px;
+    
+    }
+
+    .logoflex {
+
+        flex-direction: row;
+
+    }
+
+    nav ul {
+
+        flex-direction: row;
+
+        justify-content: left;
+
+        max-width: 960px;
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+    }
+
+    .navigation li {
+
+        display: block; 
+
+    }
+
+    .navigation li:first-child {
+
+        display: none; 
+
+    }
+
+    nav a {
+
+        padding-left: 0; 
+
+        padding-right: 0;
+
+        width: 100%;
+
+    }
+
+    .headerflexcolumn {
+    
+        align-content: center;
+        
+        flex-direction: column;
+    
+    }
+
+    header h1 {
+
+        padding-left: 20px;
+
+        text-align: left;
+
+        font-size: 2em;
+
+        position: relative;
+    
+        top: 5px;
+    
+        right: 20px;
+    
+    }
+
+    header h3 {
+
+        padding-left: 20px;
+
+        font-size: 1.17em;
+    
+        text-align: center;
+    
+        position: relative;
+    
+        bottom: 5px;
+
+        right: 20px;
+    }
+
+    .weather-gallery-grid {
+
+        display: grid;
+    
+        grid-template-columns: 1fr 1fr;
+
+        padding-bottom: 20px;
+    
+    }
+
+    .form-container {
+
+        margin-top: 80px;
+
+    }
+
+    div.town-data {
+
+        display: flex;
+
+        flex-direction: column;
+    
+    }
+
+    section.town-data-section {
+
+        display: flex;
+
+        flex-direction: row;
+
+    }
+
+    section.town-data-section:nth-child(even) {
+
+        flex-direction: row-reverse;
+
+    }
+
+}

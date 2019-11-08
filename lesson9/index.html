@@ -4,7 +4,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Preston Idaho page for Blu-Weather.com">
+        <meta name="description" content="Home page for Blu-Weather.com">
 
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -15,12 +15,12 @@
         <link rel="shortcut icon" href="images/bluweatherfavicon.ico">
 
         <title>
-            Preston, ID Weather | Weather | Blu-Weather.com
+            Home | Weather | Blu-Weather.com
         </title>
     </head>
     
     
-    <body onload="calculateWindChill()">
+    <body>
     
         <div class="wrapper">
 
@@ -48,12 +48,12 @@
                     <ul class="navigation">
 
                         <li><a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="preston-8.html">Preston</a></li>
+                        <li><a href="index.html" class="currentpage">Home</a></li>
+                        <li><a href="preston.html">Preston</a></li>
                         <li><a href="#">Soda Springs</a></li>
                         <li><a href="#">Fish Haven</a></li>
                         <li><a href="stormcenter.html">Storm Center</a></li>
-                        <li><a href="gallery-8.html">Gallery</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
 
                     </ul>
                 </nav>
@@ -64,8 +64,9 @@
             
             <main>
 
-                <div id="form-thanks"><p>Thank you for your submission!</p></div>
-                <div id="thank-you-image"><img src="images/overcast.png" alt="Overcast weather icon"></div>
+                <div class="town-data">
+                
+                </div>
 
             </main>
 
@@ -130,8 +131,8 @@
         </script>
 
         <script src="js/date.js"></script>
-        <script src="js/windchill.js"></script>
         <script src="js/menutoggle.js"></script>
+        <script src="js/loadtowndata.js"></script>
 
     </body>
 
