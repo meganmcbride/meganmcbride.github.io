@@ -20,7 +20,7 @@
     </head>
     
     
-    <body onload="calculateWindChill()">
+    <body>
     
         <div class="wrapper">
 
@@ -154,6 +154,8 @@
 
                         <label for="user-in-danger">
                             <span class="form-label">Are you in danger?</span>
+                            <br class="hidden-line-break">
+                            <br class="hidden-line-break">
                             <input id="user-in-danger" name="user-in-danger" type="radio" value="yes">&nbsp;Yes&nbsp;&nbsp;</input>
                             <input id="user-in-danger" name="user-in-danger" type="radio" value="maybe">&nbsp;Maybe&nbsp;&nbsp;</input>
                             <input id="user-in-danger" name="user-in-danger" type="radio" value="no">&nbsp;No&nbsp;&nbsp;</input>
@@ -164,7 +166,7 @@
 
                         <label for="additional-information">
                             <span class="form-label">Additional Information:</span>
-                            <textarea rows="1" cols="50" id="additional-information" name="additional-information"></textarea>
+                            <textarea rows="1" cols="23" id="additional-information" name="additional-information"></textarea>
                         </label>
 
                         <br>
@@ -242,7 +244,6 @@
         </script>
 
         <script src="js/date.js"></script>
-        <script src="js/windchill.js"></script>
         <script src="js/menutoggle.js"></script>
         <script src="js/ratingadjustment.js"></script>
 

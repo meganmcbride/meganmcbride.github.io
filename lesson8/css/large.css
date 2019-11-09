@@ -51,6 +51,12 @@
 
     }
 
+    .hidden-line-break {
+
+        display: none;
+    
+    }
+
     /*#form-thanks p {
 
         overflow: hidden;

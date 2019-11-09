@@ -176,4 +176,10 @@
 
     }
 
+    .hidden-line-break {
+
+        display: none;
+    
+    }
+
 }

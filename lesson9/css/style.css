@@ -754,3 +754,9 @@ section.town-data-section {
     box-shadow: 10px 10px 10px #7A9D96;
 
 }
+
+.hidden-line-break {
+
+    display: block;
+
+}
