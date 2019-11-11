@@ -8,11 +8,13 @@
 
     margin-top: -150px;
 
+    margin-bottom: 100px;
+
 }
 
 .articleimage {
 
-    max-width: 75%
+    max-width: 75%;
 
 }
 
@@ -725,6 +727,12 @@ div.town-data {
 
 }
 
+.town-data img {
+
+    max-width: 100%;
+
+}
+
 section.town-data-section {
 
     max-width: 960px;
@@ -758,5 +766,55 @@ section.town-data-section {
 .hidden-line-break {
 
     display: block;
+
+}
+
+div.about-bluweather {
+
+    max-width: 880px;
+
+    color: #00303F;
+
+    margin-top: 60px;
+
+    margin-bottom: 80px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding: 30px;
+
+    background-color: #CAE4DB;
+
+    /*border-radius: 20px;*/
+
+    border: 1px solid #00303F;
+
+    box-shadow: 10px 10px 10px #7A9D96;
+
+}
+
+.about-bluweather a:link {
+
+    color: #00303F;
+
+}
+
+.about-bluweather a:visited {
+
+    color: #00303F;
+
+}
+
+.about-bluweather a:hover {
+
+    color: #7A9D96;
+
+}
+
+.about-bluweather a:active {
+
+    color: #7A9D96;
 
 }
