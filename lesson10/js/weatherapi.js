@@ -23,7 +23,7 @@ fetch(requestURL)
 
     const desc = weather[0].description;
 
-    
+
 
     document.getElementById("imagesrc").innerHTML = imagesrc;
 

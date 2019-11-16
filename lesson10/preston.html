@@ -20,7 +20,7 @@
     </head>
     
     
-    <body onload="calculateWindChill()">
+    <body>
     
         <div class="wrapper">
 
@@ -70,15 +70,15 @@
 
                         Weather Summary
                         <hr>
-                        Currently: <span class="highlight">Sunny</span>
+                        Currently: <span id="current-weather-condition" class="highlight"></span>
                         <br>
-                        High: <span class="highlight"><span id="temperature">30</span>° F</span>
+                        High: <span class="highlight"><span id="current-weather-temperature"></span>° F</span>
                         <br>
                         Wind Chill: <span class="highlight"><span id="windchill"></span></span>
                         <br>
-                        Humidity: <span class="highlight">20%</span>
+                        Humidity: <span id="current-weather-humidity" class="highlight"></span>
                         <br>
-                        Wind Speed: <span class="highlight"><span id="windspeed">10</span> MPH</span>
+                        Wind Speed: <span class="highlight"><span id="current-weather-wind-speed"></span> MPH</span>
 
                 </div>
 
@@ -96,37 +96,37 @@
 
                 <table>
                     <tr>
-                        <th>Mon</th>
-                        <th>Tue</th>
-                        <th>Wed</th>
-                        <th>Thu</th>
-                        <th>Fri</th>
+                        <th id="day1-day-name">Mon</th>
+                        <th id="day2-day-name">Tue</th>
+                        <th id="day3-day-name">Wed</th>
+                        <th id="day4-day-name">Thu</th>
+                        <th id="day5-day-name">Fri</th>
                     </tr>
                     <tr>
                         <td>
-                            <img src="images/sunny.png" alt="Sunny weather icon">
+                            <img id="day1-weather-icon" src="images/sunny.png" alt="Weather condition icon">
                             <br>
-                            <span>75° F</span>
+                            <span id="day1-temperature"></span>° F
                         </td>
                         <td>
-                            <img src="images/sunny.png" alt="Sunny weather icon">
+                            <img id="day2-weather-icon" src="images/sunny.png" alt="Weather condition icon">
                             <br>
-                            <span>72° F</span>
+                            <span id="day2-temperature"></span>° F
                         </td>
                         <td>
-                            <img src="images/overcast.png" alt="Overcast weather icon">
+                            <img id="day3-weather-icon" src="images/overcast.png" alt="Weather condition icon">
                             <br>
-                            <span>65° F</span>
+                            <span id="day3-temperature"></span>° F
                         </td>
                         <td>
-                            <img src="images/sunny.png" alt="Sunny weather icon">
+                            <img id="day4-weather-icon" src="images/sunny.png" alt="Weather condition icon">
                             <br>
-                            <span>78° F</span>
+                            <span id="day4-temperature"></span>° F
                         </td>
                         <td>
-                            <img src="images/overcast.png" alt="Overcast weather icon">
+                            <img id="day5-weather-icon" src="images/overcast.png" alt="Weather condition icon">
                             <br>
-                            <span>67° F</span>
+                            <span id="day5-temperature"></span>° F
                         </td>
                     </tr>
                 </table>
@@ -214,6 +214,12 @@
                 <small id="lastupdated">
                     <span id="currentdate"></span>
                 </small>
+
+                <br>
+
+                <small>
+                    Weather data provided by <a href="https://openweathermap.org/" target="_blank">Open Weather Map</a>
+                </small>
             </div>
         </footer>
     
@@ -230,8 +236,8 @@
             });
         </script>
 
+        <script src="js/getprestonweather.js"></script>
         <script src="js/date.js"></script>
-        <script src="js/windchill.js"></script>
         <script src="js/menutoggle.js"></script>
 
     </body>

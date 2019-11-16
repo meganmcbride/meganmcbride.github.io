@@ -36,4 +36,4 @@ function UpdateDates()
     ShowAnnouncement();
 }
 
-window.onload(UpdateDates());
+UpdateDates();
