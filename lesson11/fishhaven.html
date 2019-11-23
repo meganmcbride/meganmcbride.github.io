@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Fish Haven Idaho page for Blu-Weather.com">
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+        <!--<link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">-->
+        <link rel="shortcut icon" href="images/bluweatherfavicon.ico">
+
+        <title>
+            Fish Haven, ID Weather | Weather | Blu-Weather.com
+        </title>
+    </head>
+    
+    
+    <body>
+    
+        <div class="wrapper">
+
+            <header>
+                
+                <div class="logoflex">
+                    <div class="logodiv">
+                        <img src="images/weatherlogo.jpg" alt="BluWeather site logo">
+                    </div>
+                    <div class="headerflexcolumn">
+                        <h1>BluWeather Idaho</h1>
+                        <h3>It won't make you blue</h3>
+                    </div>
+                </div>
+
+                <nav>
+                    <ul class="navigation">
+
+                        <li><a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="preston.html">Preston</a></li>
+                        <li><a href="sodasprings.html">Soda Springs</a></li>
+                        <li><a href="fishhaven.html" class="currentpage">Fish Haven</a></li>
+                        <li><a href="stormcenter.html">Storm Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+
+                    </ul>
+                </nav>
+
+
+            </header>
+
+            
+            <main>
+
+                <h2>Fish Haven, Idaho</h2>
+
+                <div class="floatingcurrentweather">
+
+                        Weather Summary
+                        <hr>
+                        Currently: <span id="current-weather-condition" class="highlight"></span>
+                        <br>
+                        High: <span class="highlight"><span id="current-weather-temperature"></span>° F</span>
+                        <br>
+                        Wind Chill: <span class="highlight"><span id="windchill"></span></span>
+                        <br>
+                        Humidity: <span id="current-weather-humidity" class="highlight"></span>
+                        <br>
+                        Wind Speed: <span class="highlight"><span id="current-weather-wind-speed"></span> MPH</span>
+
+                </div>
+
+                <div class="townbanner">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="images/fishhavenbannersmall.jpg">
+                        <source media="(max-width: 992px)" srcset="images/fishhavenbannermedium.jpg">
+                        <img src="images/fishhavenbannerlarge.jpg" alt="Photo of a field near Fish Haven, Idaho">
+                    </picture>
+                </div>
+
+                <div class="fivedaytable">
+
+                <h3>5 Day Forecast</h3>
+
+                <table>
+                    <tr>
+                        <th id="day1-day-name">Mon</th>
+                        <th id="day2-day-name">Tue</th>
+                        <th id="day3-day-name">Wed</th>
+                        <th id="day4-day-name">Thu</th>
+                        <th id="day5-day-name">Fri</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="day1-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day1-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day2-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day2-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day3-weather-icon" src="images/overcast.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day3-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day4-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day4-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day5-weather-icon" src="images/overcast.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day5-temperature"></span>° F
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+
+                <div id="town-events-div">
+                    <div>
+                        Upcoming Events in Fish Haven
+                    </div>
+                    <hr>
+
+                </div>
+
+                <div class="bodycontent">
+                    <img src="images/fishhavenboat.jpg" alt="Image of a house" class="articleimage">
+
+                    <div class="article-title-div"><h3>Pro Fishing Tips</h3></div>
+
+                    <h4 class="authorattribution">by Megan McBride</h4>
+
+                    <p>Fish Haven Creek is located about 20 miles from Montpelier, in Bear Lake County. Whether you’re baitcasting, fly fishing or trying your chances of getting a bite, this is a great spot to catch some real beauties! Be sure to bring your favorite fly fishing rod and reel and head out to Fish Haven Creek.</p>
+
+                    <p>There are countless articles on Google about the various types of fish that you can catch in Bear Lake, as well as the best times of year to fish, but we'll cover some of the most important tips to help get you off to a strong start for the fishing season.</p>
+
+                    <p><strong>I. TYPES OF FISH</strong></p> 
+                    
+                    <p>There are four types of fish species in Bear Lake: the Bonneville Whitefish, the Bonneville Cisco, the Bear Lake Sculpin, and the Bear Lake Whitefish. The Bonneville Cisco spawning in the January-February months draws fishing enthusiasts from all over the world. They have found that one of the easiest ways to capture the small swift fish is to dip nets into the water and scoop them up swiftly into their boats.</p>
+
+                    <p><strong>II. BEST METHODS FOR CATCHING FISH</strong></p>
+
+                    <p>The type of bait that you will use when fishing depends on what species of fish you are hoping to catch. The Bonneville Cisco itself is useful for trout bait, so many fishermen have found it beneficial to freeze their Ciscos and use them as bait in the summer months when trout are plentiful. Again, using large nets to scoop up the small fish will be your most effective tactic for catching these little guys. For both the Bonneville Whitefish and the Bear Lake Whitefish, a fly rod with a small streamer attached seems to <strong><i>net</i></strong> the best results for most fishermen. (Pun intended)</p>
+
+                    <p><strong>III. ICE FISHING</strong></p>
+
+                    <p>On average, every four out of five years Bear Lake becomes covered in ice during the winter months. This opens up wonderful opportunities for fishing through the ice for those who are willing to endure the cold. The best method to catch fish under the ice is known as <strong><i>jigging</i></strong>. This involves several steps: <br><br>Firstly, drop your line into the water and allow it to sink to the bottom. <br><br>Secondly, Raise it very slowly to about a foot above the bottom. <br><br>Thirdly, slowly move your rod left to right, or up and down, in order to attract fish. <br><br>And lastly, the most important part of jigging is slowness in all things. Any sudden movements will make the fish think that the bait will require too much effort to catch, and as a result, they are unlikely to bite.</p>
+
+                    <p><strong>IV. ENSURE ALL YOUR LICENSES ARE IN ORDER</strong></p>
+
+                    <p>With all this in mind, remember that poaching is a crime. Poaching is defined as fishing or hunting without having the proper licences. The Utah and Idaho Fish & Wildlife Departments take poaching very seriously. Fines begin in the hundreds of dollars, and in especially egregious cases, it can result in jail time. Special licenses are available that allow fishing on both the Utah and Idaho sides of Bear Lake. They can be obtained at: <br><br><a href="https://idfg.huntfishidaho.net/login" target="_blank">https://idfg.huntfishidaho.net/login</a></p>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        <div class="contactparent">
+            <div class="contact">
+                <img src="images/prestonmap.jpg" alt="Map of Preston showing BluWeather's office location" class="officemap">
+
+                <div class="contacttext">
+                    <span class="contactlinebreaks"><br>
+                    <br>
+                    <br></span>
+                    <strong>BluWeather</strong>
+                    <br>
+                    <span><img src="images/locationicon.png" alt="GPS location icon">194 N 2nd W</span>
+                    <br>
+                    <span>Preston, ID 83263</span>
+
+                    <br>
+                    <br>
+
+                    <span>&#9742; 555-555-5555</span>
+                    <br>
+                    <span>&#9993; <a href="mailto:bluweather@gmail.com">bluweather@gmail.com</a></span>
+                    <br>
+                    <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="Facebook icon"></a>
+                    <a href="https://www.twitter.com/"><img src="images/twittericon.png" alt="Twitter icon"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagramicon.png" alt="Instagram icon"></a>
+                    <a href="https://www.youtube.com/"><img src="images/youtubeicon.png" alt="Youtube icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="footercentering">
+
+                <small>
+                    &copy; <span id="copyrightdate"></span> BluWeather | Megan McBride <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+                </small>
+    
+                <br>
+    
+                <small id="lastupdated">
+                    <span id="currentdate"></span>
+                </small>
+
+                <br>
+
+                <small>
+                    Weather data provided by <a href="https://openweathermap.org/" target="_blank">Open Weather Map</a>
+                </small>
+            </div>
+        </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Vidaloka',
+                        'Poppins'
+                    ]
+                }
+            });
+        </script>
+
+        <script src="js/getfishhavenweather.js"></script>
+        <script src="js/getfishhavenevents.js"></script>
+        <script src="js/datewithoutpancakes.js"></script>
+        <script src="js/menutoggle.js"></script>
+
+    </body>
+
+</html>

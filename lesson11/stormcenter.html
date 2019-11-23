@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Storm reporting page for Blu-Weather.com">
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+        <!--<link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">-->
+        <link rel="shortcut icon" href="images/bluweatherfavicon.ico">
+
+        <title>
+            Storm Center | Weather | Blu-Weather.com
+        </title>
+    </head>
+    
+    
+    <body>
+    
+        <div class="wrapper">
+
+            <div class="pancakehide">
+
+                <span>Saturday = Preston Pancakes in the Park!</span>
+                <br>
+                <span>9 AM Saturday at the city park.</span>
+
+            </div>
+
+            <header>
+                
+                <div class="logoflex">
+                    <div class="logodiv">
+                        <img src="images/weatherlogo.jpg" alt="BluWeather site logo">
+                    </div>
+                    <div class="headerflexcolumn">
+                        <h1>BluWeather Idaho</h1>
+                        <h3>It won't make you blue</h3>
+                    </div>
+                </div>
+
+                <nav>
+                    <ul class="navigation">
+
+                        <li><a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="preston.html">Preston</a></li>
+                        <li><a href="sodasprings.html">Soda Springs</a></li>
+                        <li><a href="fishhaven.html">Fish Haven</a></li>
+                        <li><a href="stormcenter.html" class="currentpage">Storm Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+
+                    </ul>
+                </nav>
+
+
+            </header>
+
+            
+            <main>
+
+                <h2>Storm Reporting Form</h2>
+
+                <div class="form-container">
+
+                    <form action="thanks.html" method="get">
+
+                        <label for="full-name">
+                            <span class="form-label">Full Name:</span>
+                            <input pattern="[a-zA-Z ]{5,}" id="full-name" name="full-name" type="text" required>
+                        </label>
+
+                        <br>
+                        <br>
+
+                        <label for="email">
+                            <span class="form-label">Email:</span>
+                            <input id="email" name="email" type="email" placeholder="email@address.com">
+                        </label>
+
+                        <br>
+                        <br>
+
+                        <label for="phone-number">
+                            <span class="form-label">Phone Number:</span>
+                            <input id="phone-number" name="phone-number" type="tel" required>
+                        </label>
+
+                        <br>
+                        <br>
+
+                        <label for="zip-code">
+                            <span class="form-label">Zip Code:</span>
+                            <input id="zip-code" name="zip-code" type="number" required>
+                        </label>
+                        
+                        <br>
+                        <br>
+
+                        <label for="storm-date">
+                            <span class="form-label">Storm Date:</span>
+                            <input id="storm-date" name="storm-date" type="date">
+                        </label>
+
+                        <br>
+                        <br>
+
+                        <label for="storm-type">
+                            <span class="form-label">Storm Type:</span>
+                            <input id="storm-type" name="storm-type" list="storm-types">
+                            <datalist id="storm-types">
+                                <option value="Flash Flood"></option>
+                                <option value="Hail"></option>
+                                <option value="Hurricane"></option>
+                                <option value="Thunderstorm"></option>
+                                <option value="Tornado"></option>
+                            </datalist>
+                        </label>
+
+                        <br>
+                        <br>
+
+                        <label for="storm-severity">
+                            <span class="form-label">Storm Severity:</span>
+                            <input id="storm-severity" name="storm-severity" type="range" max="10" min="1" step="1" value="5" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">&nbsp;&nbsp;&nbsp;<span id="ratingvalue">5</span>
+                        </label>
+
+                        <br>
+                        <br>
+
+                        <label for="storm-region">
+                            <span class="form-label">Storm Region:</span>
+                            <select id="storm-region" name="storm-region">
+
+                                <option selected value="Select Region..." disabled>Select Region...</option>
+
+                                <option value="Preston">Preston</option>
+
+                                <option value="Sugar City">Sugar City</option>
+
+                                <option value="Fish Haven">Fish Haven</option>
+
+
+                            </select>
+                        </label>
+
+                        <br>
+                        <br>
+
+                            <span class="form-label">Are you in danger?</span>
+                            <br class="hidden-line-break">
+                            <br class="hidden-line-break">
+                            <label for="user-in-danger1"><input id="user-in-danger1" name="user-in-danger" type="radio" value="yes">&nbsp;Yes&nbsp;&nbsp;</label>
+                            <label for="user-in-danger2"><input id="user-in-danger2" name="user-in-danger" type="radio" value="yes">&nbsp;No&nbsp;&nbsp;</label>
+                            <label for="user-in-danger3"><input id="user-in-danger3" name="user-in-danger" type="radio" value="yes">&nbsp;Maybe&nbsp;&nbsp;</label>                  
+
+                        <br>
+                        <br>
+
+                        <label for="additional-information">
+                            <span class="form-label">Additional Information:</span>
+                            <textarea rows="1" cols="23" id="additional-information" name="additional-information"></textarea>
+                        </label>
+
+                        <br>
+                        <br>
+
+                        <input id="submission" name="submission" type="submit" value="Send">
+
+                        
+
+                    </form>
+
+                </div>
+
+            
+            </main>
+
+        </div>
+
+        <div class="contactparent">
+            <div class="contact">
+                <img src="images/prestonmap.jpg" alt="Map of Preston showing BluWeather's office location" class="officemap">
+
+                <div class="contacttext">
+                    <span class="contactlinebreaks"><br>
+                    <br>
+                    <br></span>
+                    <strong>BluWeather</strong>
+                    <br>
+                    <span><img src="images/locationicon.png" alt="GPS location icon">194 N 2nd W</span>
+                    <br>
+                    <span>Preston, ID 83263</span>
+
+                    <br>
+                    <br>
+
+                    <span>&#9742; 555-555-5555</span>
+                    <br>
+                    <span>&#9993; <a href="mailto:bluweather@gmail.com">bluweather@gmail.com</a></span>
+                    <br>
+                    <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="Facebook icon"></a>
+                    <a href="https://www.twitter.com/"><img src="images/twittericon.png" alt="Twitter icon"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagramicon.png" alt="Instagram icon"></a>
+                    <a href="https://www.youtube.com/"><img src="images/youtubeicon.png" alt="Youtube icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="footercentering">
+
+                <small>
+                    &copy; <span id="copyrightdate"></span> BluWeather | Megan McBride <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+                </small>
+    
+                <br>
+    
+                <small id="lastupdated">
+                    <span id="currentdate"></span>
+                </small>
+            </div>
+        </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Vidaloka',
+                        'Poppins'
+                    ]
+                }
+            });
+        </script>
+
+        <script src="js/date.js"></script>
+        <script src="js/menutoggle.js"></script>
+        <script src="js/ratingadjustment.js"></script>
+
+    </body>
+
+</html>

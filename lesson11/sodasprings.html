@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Soda Springs Idaho page for Blu-Weather.com">
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+        <!--<link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">-->
+        <link rel="shortcut icon" href="images/bluweatherfavicon.ico">
+
+        <title>
+            Soda Springs, ID Weather | Weather | Blu-Weather.com
+        </title>
+    </head>
+    
+    
+    <body>
+    
+        <div class="wrapper">
+
+            <header>
+                
+                <div class="logoflex">
+                    <div class="logodiv">
+                        <img src="images/weatherlogo.jpg" alt="BluWeather site logo">
+                    </div>
+                    <div class="headerflexcolumn">
+                        <h1>BluWeather Idaho</h1>
+                        <h3>It won't make you blue</h3>
+                    </div>
+                </div>
+
+                <nav>
+                    <ul class="navigation">
+
+                        <li><a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="preston.html">Preston</a></li>
+                        <li><a href="sodasprings.html" class="currentpage">Soda Springs</a></li>
+                        <li><a href="fishhaven.html">Fish Haven</a></li>
+                        <li><a href="stormcenter.html">Storm Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+
+                    </ul>
+                </nav>
+
+
+            </header>
+
+            
+            <main>
+
+                <h2>Soda Springs, Idaho</h2>
+
+                <div class="floatingcurrentweather">
+
+                        Weather Summary
+                        <hr>
+                        Currently: <span id="current-weather-condition" class="highlight"></span>
+                        <br>
+                        High: <span class="highlight"><span id="current-weather-temperature"></span>° F</span>
+                        <br>
+                        Wind Chill: <span class="highlight"><span id="windchill"></span></span>
+                        <br>
+                        Humidity: <span id="current-weather-humidity" class="highlight"></span>
+                        <br>
+                        Wind Speed: <span class="highlight"><span id="current-weather-wind-speed"></span> MPH</span>
+
+                </div>
+
+                <div class="townbanner">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="images/sodaspringsbannersmall2.jpg">
+                        <source media="(max-width: 992px)" srcset="images/sodaspringsbannermedium2.jpg">
+                        <img src="images/sodaspringsbannerlarge2.jpg" alt="Photo of a field near Soda Springs, Idaho">
+                    </picture>
+                </div>
+
+                <div class="fivedaytable">
+
+                <h3>5 Day Forecast</h3>
+
+                <table>
+                    <tr>
+                        <th id="day1-day-name">Mon</th>
+                        <th id="day2-day-name">Tue</th>
+                        <th id="day3-day-name">Wed</th>
+                        <th id="day4-day-name">Thu</th>
+                        <th id="day5-day-name">Fri</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="day1-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day1-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day2-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day2-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day3-weather-icon" src="images/overcast.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day3-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day4-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day4-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day5-weather-icon" src="images/overcast.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day5-temperature"></span>° F
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+
+                <div id="town-events-div">
+                    <div>
+                        Upcoming Events in Soda Springs
+                    </div>
+                    <hr>
+
+                </div>
+
+                <div class="bodycontent">
+                    <img src="images/sodaspringsgeyser.jpg" alt="Image of a house" class="articleimage">
+
+                    <div class="article-title-div"><h3>Take a Stroll Through Geyser Park</h3></div>
+
+                    <h4 class="authorattribution">by Megan McBride</h4>
+
+                    <p>Behind the beautiful buildings of Main Street in Soda Springs, Idaho you can find the only captive geyser in the world.</p>
+
+                    <p>The geyser's discovery was purely accidental. In November of 1937, a mining company drilled down about 300 feet in order to find a hot water source for their planned swimming pool. When they reached a large chamber, the drilling stopped. They quickly found that carbon dioxide gases had mixed with the underground water. This caused the water to build up pressure and erupt out of the drill hole. They discovered that the geyser erupted constantly and reached as high as 150 feet. This man-made geyser is now regulated, however, since it would spray continuously were it allowed to do so - posing danger to nearby residents. Today a cap has been placed on the geyser to ensure that it only erupts every 30 minutes.</p>
+
+                    <p><strong>ACTIVITIES AROUND THE GEYSER</strong></p>
+
+                    <p><strong>I. HIKING TRAIL</strong></p>
+
+                    <p>The park offers a hike to the top of the geyser's mound. It offers a great opportunity for you and the family to snap some memorable family photos as you watch Mother Nature at work. There's also a nice boardwalk that allows you to view the geyser from many unique angles and there are plenty of kiosks where you can read about its history.</p>
+
+                    <p><strong>II. EXPLORE DOWNTOWN SODA SPRINGS</strong></p>
+
+                    <p>Take a walk around the antique buildings that downtown Soda Springs has to offer. There are loads of different keepsakes that you can find in the various shops which dot Main Street. There are also several buildings with interesting architectural designs, such as the Caribou County Courthouse. This building has been around since 1919, and it serves Soda Springs as well as several surrounding communities. </p>
+
+                    <p><strong>III. CAMPING SITES</strong></p>
+
+                    <p>There's no better way to spend your hard earned vacation than to take advantage of the great outdoors. There are several campsites that are located near the Alexander Reservoir to the west of Soda Springs. They offer affordable rates and are open almost year round, so you should have no trouble finding campsites that are able to accomodate you.</p>
+
+                    <p><strong>IV. SASQUASH YOUR HUNGER</strong></p>
+
+                    <p>There are lots of great places to grab a bite to eat. After visiting the geyser, you can check out Caribou Jack's BBQ on 2nd Street for some mouth watering brisket or pulled pork. You can also head to the Geyser View Restaurant, where you can watch the geyser continue to erupt while enjoying a nice porterhouse steak. Be careful taking any leftovers! Sasquatch has supposedly been sighted in Soda Springs repeatedly in the past few decades, so he might stop by for a snack.</p>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        <div class="contactparent">
+            <div class="contact">
+                <img src="images/prestonmap.jpg" alt="Map of Preston showing BluWeather's office location" class="officemap">
+
+                <div class="contacttext">
+                    <span class="contactlinebreaks"><br>
+                    <br>
+                    <br></span>
+                    <strong>BluWeather</strong>
+                    <br>
+                    <span><img src="images/locationicon.png" alt="GPS location icon">194 N 2nd W</span>
+                    <br>
+                    <span>Preston, ID 83263</span>
+
+                    <br>
+                    <br>
+
+                    <span>&#9742; 555-555-5555</span>
+                    <br>
+                    <span>&#9993; <a href="mailto:bluweather@gmail.com">bluweather@gmail.com</a></span>
+                    <br>
+                    <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="Facebook icon"></a>
+                    <a href="https://www.twitter.com/"><img src="images/twittericon.png" alt="Twitter icon"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagramicon.png" alt="Instagram icon"></a>
+                    <a href="https://www.youtube.com/"><img src="images/youtubeicon.png" alt="Youtube icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="footercentering">
+
+                <small>
+                    &copy; <span id="copyrightdate"></span> BluWeather | Megan McBride <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+                </small>
+    
+                <br>
+    
+                <small id="lastupdated">
+                    <span id="currentdate"></span>
+                </small>
+
+                <br>
+
+                <small>
+                    Weather data provided by <a href="https://openweathermap.org/" target="_blank">Open Weather Map</a>
+                </small>
+            </div>
+        </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Vidaloka',
+                        'Poppins'
+                    ]
+                }
+            });
+        </script>
+
+        <script src="js/getsodaspringsweather.js"></script>
+        <script src="js/getsodaspringsevents.js"></script>
+        <script src="js/datewithoutpancakes.js"></script>
+        <script src="js/menutoggle.js"></script>
+
+    </body>
+
+</html>

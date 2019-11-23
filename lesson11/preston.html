@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Preston Idaho page for Blu-Weather.com">
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+        <!--<link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">-->
+        <link rel="shortcut icon" href="images/bluweatherfavicon.ico">
+
+        <title>
+            Preston, ID Weather | Weather | Blu-Weather.com
+        </title>
+    </head>
+    
+    
+    <body>
+    
+        <div class="wrapper">
+
+            <div class="pancakehide">
+
+                <span>Saturday = Preston Pancakes in the Park!</span>
+                <br>
+                <span>9 AM Saturday at the city park.</span>
+
+            </div>
+
+            <header>
+                
+                <div class="logoflex">
+                    <div class="logodiv">
+                        <img src="images/weatherlogo.jpg" alt="BluWeather site logo">
+                    </div>
+                    <div class="headerflexcolumn">
+                        <h1>BluWeather Idaho</h1>
+                        <h3>It won't make you blue</h3>
+                    </div>
+                </div>
+
+                <nav>
+                    <ul class="navigation">
+
+                        <li><a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="preston.html" class="currentpage">Preston</a></li>
+                        <li><a href="sodasprings.html">Soda Springs</a></li>
+                        <li><a href="fishhaven.html">Fish Haven</a></li>
+                        <li><a href="stormcenter.html">Storm Center</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+
+                    </ul>
+                </nav>
+
+
+            </header>
+
+            
+            <main>
+
+                <h2>Preston, Idaho</h2>
+
+                <div class="floatingcurrentweather">
+
+                        Weather Summary
+                        <hr>
+                        Currently: <span id="current-weather-condition" class="highlight"></span>
+                        <br>
+                        High: <span class="highlight"><span id="current-weather-temperature"></span>° F</span>
+                        <br>
+                        Wind Chill: <span class="highlight"><span id="windchill"></span></span>
+                        <br>
+                        Humidity: <span id="current-weather-humidity" class="highlight"></span>
+                        <br>
+                        Wind Speed: <span class="highlight"><span id="current-weather-wind-speed"></span> MPH</span>
+
+                </div>
+
+                <div class="townbanner">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="images/prestonbannersmall.jpg">
+                        <source media="(max-width: 992px)" srcset="images/prestonbannermedium.jpg">
+                        <img src="images/prestonbannerlarge.jpg" alt="Photo of a field near Preston, Idaho">
+                    </picture>
+                </div>
+
+                <div class="fivedaytable">
+
+                <h3>5 Day Forecast</h3>
+
+                <table>
+                    <tr>
+                        <th id="day1-day-name">Mon</th>
+                        <th id="day2-day-name">Tue</th>
+                        <th id="day3-day-name">Wed</th>
+                        <th id="day4-day-name">Thu</th>
+                        <th id="day5-day-name">Fri</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="day1-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day1-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day2-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day2-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day3-weather-icon" src="images/overcast.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day3-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day4-weather-icon" src="images/sunny.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day4-temperature"></span>° F
+                        </td>
+                        <td>
+                            <img id="day5-weather-icon" src="images/overcast.png" alt="Weather condition icon">
+                            <br>
+                            <span id="day5-temperature"></span>° F
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
+
+                <div id="town-events-div">
+                    <div class="town-events-title">
+                        Upcoming Events in Preston
+                    </div>
+                    <hr>
+
+                </div>
+
+                <div class="bodycontent">
+                    <img src="images/cabin4.jpg" alt="Image of a house" class="articleimage">
+
+                    <div class="article-title-div">
+                        <h3>Preparing Your Home for the Cold Season</h3>
+                    </div>
+
+                    <h4 class="authorattribution">by Megan McBride</h4>
+
+                    <p>With the cooler temperatures setting in and the changing colors of the leaves, we know that Fall is on its way. What many of us aren't so quick to think about is the maintenance that Autumn requires of us.</p>
+
+                    <p>There are countless articles on Google that emphasize all of the maintenance that every homeowner should consider, and it's a good idea to look into them further. In this article, we will cover a few of the basics in order to help prepare you and your loved ones for the oncoming cold season.</p>
+
+                    <p><strong>I. CLEAN GUTTERS</strong></p> 
+                    
+                    <p>Cleaning and inspecting your gutters is one of the very first things that you should look into. This will give you a chance to make sure that no <i>friends</i> are living in or near your home, and to ensure that there are no cracks or breaks in your gutters.</p>
+
+                    <p><strong>II. CHECK WINDOWS, DOORS, & ROOFS</strong></p>
+
+                    <p>When looking over your roof, be sure to keep an eye out for any shingles that are raised or missing, especially since these will cause major problems once winter strikes. Windows should also be inspected to make sure that the molding is in good condition and that there are no noticeable drafts. Homeowners are also advised to look over the kickplates and seals on any external doors, as this can save you money with your heating bill later on.</p>
+
+                    <p><strong>III. INSPECT YOUR BASEMENT</strong></p>
+
+                    <p>Take a walk around the basement in your home and look for any signs of mildew, cracks, or any other reasons for concern. Run water down the drains, especially in any unused bathrooms, to ensure that there are no clogs and that your home won't be in danger of flooding and/or backups.</p>
+
+                    <p><strong>IV. CHECK ANY SPRINKLERS, HOSES, & WATER SPOUTS</strong></p>
+
+                    <p>No homeowner wants to have any pipes freeze and burst with the coming cold. This can be avoided easily by shutting down your sprinkler system and draining the pipes, removing hoses from any faucets and draining them, and insulating or covering any spigots/faucets.</p>
+
+                    <p><strong>V. MOW, WEED & FEED YOUR LAWN</strong></p>
+
+                    <p>One of the best ways to keep your lawn happy and healthy is to mow it one final time before the cold season sets in. Shorter grass also means that mice and voles will be less likely to call the place home. You should also fertilize your lawn before the first frost sets in, as this helps it to recover from the wear and tear of summer.</p>
+
+                    <p>These may seem like daunting tasks initially, especially since all of us have busy schedules, but taking the time to make sure our homes are prepared for the cold season will save us time and a great deal of money. In taking care to avoid these problems, we can also ensure the safety and well-being of ourselves as well as our loved ones.</p>
+
+                </div>
+
+            </main>
+
+        </div>
+
+        <div class="contactparent">
+            <div class="contact">
+                <img src="images/prestonmap.jpg" alt="Map of Preston showing BluWeather's office location" class="officemap">
+
+                <div class="contacttext">
+                    <span class="contactlinebreaks"><br>
+                    <br>
+                    <br></span>
+                    <strong>BluWeather</strong>
+                    <br>
+                    <span><img src="images/locationicon.png" alt="GPS location icon">194 N 2nd W</span>
+                    <br>
+                    <span>Preston, ID 83263</span>
+
+                    <br>
+                    <br>
+
+                    <span>&#9742; 555-555-5555</span>
+                    <br>
+                    <span>&#9993; <a href="mailto:bluweather@gmail.com">bluweather@gmail.com</a></span>
+                    <br>
+                    <a href="https://www.facebook.com/"><img src="images/facebookicon.png" alt="Facebook icon"></a>
+                    <a href="https://www.twitter.com/"><img src="images/twittericon.png" alt="Twitter icon"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagramicon.png" alt="Instagram icon"></a>
+                    <a href="https://www.youtube.com/"><img src="images/youtubeicon.png" alt="Youtube icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="footercentering">
+
+                <small>
+                    &copy; <span id="copyrightdate"></span> BluWeather | Megan McBride <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+                </small>
+    
+                <br>
+    
+                <small id="lastupdated">
+                    <span id="currentdate"></span>
+                </small>
+
+                <br>
+
+                <small>
+                    Weather data provided by <a href="https://openweathermap.org/" target="_blank">Open Weather Map</a>
+                </small>
+            </div>
+        </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Vidaloka',
+                        'Poppins'
+                    ]
+                }
+            });
+        </script>
+
+        <script src="js/getprestonweather.js"></script>
+        <script src="js/getprestonevents.js"></script>
+        <script src="js/date.js"></script>
+        <script src="js/menutoggle.js"></script>
+
+    </body>
+
+</html>
