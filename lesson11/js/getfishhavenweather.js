@@ -24,7 +24,7 @@ fetch(currentWeatherRequestURL)
     document.getElementById("current-weather-condition").innerHTML = jsonObject['weather'][0]['main'];
 
 
-    var temperature = parseFloat(jsonObject['wind']['speed']);
+    var temperature = parseFloat(jsonObject['main']['temp']);
 
     var windSpeed = parseFloat(jsonObject['wind']['speed']);
 
@@ -111,6 +111,8 @@ fetch(forecastWeatherRequestURL)
             document.getElementById("day" + dayCounter + "-day-name").innerHTML = dayOfWeek;
 
             document.getElementById("day" + dayCounter + "-weather-icon").src = 'https://openweathermap.org/img/w/' + forecastList[i]['weather'][0].icon + '.png';
+
+            document.getElementById("day" + dayCounter + "-weather-icon").alt = "Icon image of " + forecastList[i]['weather'][0]['description'];
 
             document.getElementById("day" + dayCounter + "-temperature").innerHTML = forecastList[i]['main']['temp'];
 
