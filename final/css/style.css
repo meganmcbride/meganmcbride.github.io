@@ -1,0 +1,397 @@
+:root {
+
+    --header-background-color: #534A3C;
+
+    --header-text-color : #FFFFFF;
+
+    --footer-background-color: #534A3C;
+
+    --footer-text-color : #FFFFFF;
+
+    --navbar-background-color: #A0AC60;
+
+    --navbar-text-color: #FFFFFF;
+
+    --navbar-hover-active-color: #534A3C;
+
+    --navbar-curent-page-text-color: #A0AC60;
+
+    --navbar-curent-page-text-hover-color: #FFFFFF;
+
+    --navbar-curent-page-background-color: #534A3C;
+
+    --main-background-color: #FFFFFF;
+
+    --main-text-color: #534A3C;
+
+    --main-alternate-text-color: #FFFFFF;
+
+    --main-alternate-background-color: #A0AC60;
+
+    --that-one-purple: #330E1F;
+
+    --body-background-color: #534A3C;
+
+    --floating-reservation-text-color: #FFFFFF;
+
+}
+
+
+
+body {
+
+    font-family: 'Quicksand', sans-serif;
+
+    background-color: var(--body-background-color);
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: 'Alice', serif;
+
+}
+
+
+
+header h2 {
+
+    margin-bottom: 0;
+
+}
+
+
+
+header {
+
+    background-color: var(--header-background-color);
+
+    color: var(--header-text-color);
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+
+}
+
+.logo-title-div {
+
+    max-width: 700px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+
+
+.site-logo {
+
+    max-width: 200px;
+
+}
+
+.title-heading-div h1 {
+
+    padding-top: 40px;
+
+}
+
+
+
+nav {
+
+    background-color: var(--navbar-background-color);
+
+    color: var(--navbar-text-color);
+
+    display: flex;
+
+    justify-content: center;
+
+    font-size: 1.25em;
+
+}
+
+
+
+nav ul {
+
+    list-style: none;
+
+    max-width: 768px;
+
+    text-align: center;
+
+    padding-left: 0px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+
+
+nav a {
+
+    transition-duration: 1s;
+
+    text-decoration: none;
+
+    padding: 1em;
+
+    padding-left: 2.5em;
+
+    padding-right: 2.5em;
+
+}
+
+
+
+nav a:link {
+
+    color: var(--navbar-text-color);
+
+}
+
+
+
+nav a:visited {
+
+    color: var(--navbar-text-color);
+    
+}
+
+
+
+nav a:hover {
+
+    color: var(--navbar-hover-active-color);
+    
+}
+
+
+
+nav a:active {
+
+    color: var(--navbar-hover-active-color);
+    
+}
+
+
+
+a.current-page:link {
+
+    background-color: var(--navbar-curent-page-background-color);
+
+    color: var(--navbar-curent-page-text-color);
+
+}
+
+a.current-page:visited {
+
+    background-color: var(--navbar-curent-page-background-color);
+
+    color: var(--navbar-curent-page-text-color);
+
+}
+
+a.current-page:hover {
+
+    background-color: var(--navbar-curent-page-background-color);
+
+    color: var(--navbar-curent-page-text-hover-color);
+
+}
+
+a.current-page:active {
+
+    background-color: var(--navbar-curent-page-background-color);
+
+    color: var(--navbar-curent-page-text-hover-color);
+
+}
+
+
+
+main {
+
+    background-color: var(--main-background-color);
+
+    color: var(--main-text-color);
+
+}
+
+
+
+.banner-floating-text-container {
+
+    position: relative;
+
+    text-align: center;
+
+}
+
+
+.centered-floating-text {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(83, 74, 60, .8);
+
+    padding: 1.5em;
+
+}
+
+.centered-floating-text a {
+
+    text-decoration: none;
+
+    color: var(--floating-reservation-text-color);
+
+    padding: 2em;
+
+    font-size: 1.1em;
+
+}
+
+.centered-floating-text a:link {
+
+    color: var(--floating-reservation-text-color);
+
+}
+
+.centered-floating-text a:visited {
+
+    color: var(--floating-reservation-text-color);
+
+}
+
+.centered-floating-text a:hover {
+
+    color: var(--floating-reservation-text-color);
+
+}
+
+.centered-floating-text a:active {
+
+    color: var(--floating-reservation-text-color);
+
+}
+
+
+
+
+.banner-image {
+
+    width: 100%;
+
+}
+
+
+
+.about-text-div {
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+
+}
+
+
+
+.temple-summary-div {
+
+    display: flex;
+
+    height: 330px;
+
+}
+
+.temple-summary-div div {
+
+    width: 50%;
+
+}
+
+.temple-summary-photo-div img {
+
+    max-width: 100%;
+
+}
+
+
+
+.temple-summary-text-div {
+
+    /*max-height and overflow are your friends*/
+
+    background-color: var(--main-alternate-background-color);
+
+    color: var(--main-alternate-text-color);
+
+
+
+}
+
+.temple-summary-text-div h2, .temple-summary-div p {
+
+    padding-left: 25px;
+
+    padding-right: 25px;
+
+}
+
+
+
+
+
+.contact-information-div {
+
+    margin-top: 30px;
+
+    display: flex;
+
+    padding-bottom: 30px;
+
+}
+
+
+.contact-information-div div {
+
+    width: 50%;
+
+}
+
+
+
+
+footer {
+
+    background-color: var(--footer-background-color);
+
+    color: var(--footer-text-color);
+
+    text-align: center;
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+}

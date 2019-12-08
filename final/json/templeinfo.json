@@ -1,0 +1,305 @@
+{
+    "temples":
+    [
+        {
+            "temple-name": "Gilbert",
+            "temple-full-name": "Gilbert, Arizona Temple",
+            "temple-address-1": "3301 S Greenfield Rd",
+            "temple-address-2": "Gilbert, AZ 85297",
+            "temple-phone": "480-822-5000",
+            "temple-email": "gilberttemple@churchofjesuschrist.org",
+            "temple-services":
+            [
+                {"service-name": "Clothing rental available"},
+                {"service-name": "No cafeteria available"},
+                {"service-name": "No patron housing available"},
+                {"service-name": "Distribution center nearby"}
+            ],
+            "temple-history":
+            [
+                {"milestone": "10 April 2008 - Announced"},
+                {"milestone": "13 November 2010 - Groundbreaking"},
+                {"milestone": "2 March 2014 - Dedicated"}
+            ],
+            "temple-ordinance-schedule":
+            {
+                "Endowment-Schedule":
+                [
+                    {"time-and-type": "5:30 AM - Walk-ins Only"},
+                    {"time-and-type": "6:15 AM - Walk-ins Only"},
+                    {"time-and-type": "7:00 AM - Walk-ins Only"},
+                    {"time-and-type": "7:45 AM - Walk-ins Only"},
+                    {"time-and-type": "8:30 AM - Walk-ins Only"},
+                    {"time-and-type": "9:15 AM - Walk-ins Only"},
+                    {"time-and-type": "10:00 AM - Walk-ins Only"},
+                    {"time-and-type": "10:45 AM - Walk-ins Only"},
+                    {"time-and-type": "11:30 AM - Walk-ins Only"},
+                    {"time-and-type": "12:15 PM - Walk-ins Only"},
+                    {"time-and-type": "1:00 PM - Walk-ins Only"},
+                    {"time-and-type": "1:45 PM - Walk-ins Only"},
+                    {"time-and-type": "2:30 PM - Walk-ins Only"},
+                    {"time-and-type": "3:15 PM - Walk-ins Only"},
+                    {"time-and-type": "4:00 PM - Walk-ins Only"},
+                    {"time-and-type": "4:45 PM - Walk-ins Only"},
+                    {"time-and-type": "5:30 PM - Walk-ins Only"},
+                    {"time-and-type": "6:15 PM - Walk-ins Only"},
+                    {"time-and-type": "7:00 PM - Walk-ins Only"},
+                    {"time-and-type": "7:45 PM - Walk-ins Only - Spanish"}
+                ],
+                "Baptism-Schedule":
+                [
+                    {"time-and-type": "5:30 AM - 4:00 PM - Walk-ins Only"},
+                    {"time-and-type": "4:00 PM - 8:30 PM - Church Groups - Walk-ins and Appointments"}
+                ],
+                "Initiatory-Schedule":
+                [
+                    {"time-and-type": "6:30 AM - 8:30 PM - Walk-ins Only"}
+                ],
+                "Sealing-Schedule":
+                [
+                    {"time-and-type": "5:30 AM - 8:30 PM - Walk-ins Only"}
+                ]
+            },
+            "temple-closure-schedule":
+            [
+                {"closure" : "Tuesday, 24 December 2019 - Wednesday, 25 December 2019"},
+                {"closure" : "Tuesday, 31 December 2019"},
+                {"closure" : "Wednesday, 1 January 2020"},
+                {"closure" : "Monday, 16 March 2020 - Monday, 30 March 2020"},
+                {"closure" : "Saturday, 4 April 2020"},
+                {"closure" : "Saturday, 4 July 2020"},
+                {"closure" : "Saturday, 3 October 2020"},
+                {"closure" : "Monday, 5 October 2020 - Monday, 26 October 2020"},
+                {"closure" : "Wednesday, 25 November 2020 - Thursday, 26 November 2020"},
+                {"closure" : "Thursday, 24 December 2020 - Friday, 25 December 2020"},
+                {"closure" : "Thursday, 31 December 2020"}
+            ]
+        },
+        {
+            "temple-name": "Ogden",
+            "temple-full-name": "Ogden, Utah Temple",
+            "temple-address-1": "350 22nd St",
+            "temple-address-2": "Ogden, UT 84401",
+            "temple-phone": "801-621-6880",
+            "temple-email": "ogdentemple@churchofjesuschrist.org",
+            "temple-services":
+            [
+                {"service-name": "Clothing rental available"},
+                {"service-name": "Cafeteria available"},
+                {"service-name": "No patron housing available"},
+                {"service-name": "Distribution center nearby"}
+            ],
+            "temple-history":
+            [
+                {"milestone": "24 August 1967 - Announced"},
+                {"milestone": "8 September 1969 - Groundbreaking"},
+                {"milestone": "18 January 1972 - Dedicated"},
+                {"milestone": "21 September 2014 - Rededicated"}
+            ],
+            "temple-ordinance-schedule":
+            {
+                "Endowment-Schedule":
+                [
+                    {"time-and-type": "7:00 AM - Walk-ins Only"},
+                    {"time-and-type": "7:30 AM - Walk-ins Only"},
+                    {"time-and-type": "8:00 AM - Walk-ins Only"},
+                    {"time-and-type": "8:30 AM - Walk-ins Only"},
+                    {"time-and-type": "9:00 AM - Walk-ins Only"},
+                    {"time-and-type": "9:30 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "10:00 AM - Walk-ins Only"},
+                    {"time-and-type": "10:30 AM - Walk-ins Only"},
+                    {"time-and-type": "11:00 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "11:30 AM - Walk-ins Only"},
+                    {"time-and-type": "12:00 PM - Walk-ins Only"},
+                    {"time-and-type": "12:30 PM - Walk-ins Only"},
+                    {"time-and-type": "1:00 PM - Walk-ins Only"},
+                    {"time-and-type": "1:30 PM - Walk-ins Only"},
+                    {"time-and-type": "2:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "2:30 PM - Walk-ins Only"},
+                    {"time-and-type": "3:00 PM - Walk-ins Only"},
+                    {"time-and-type": "3:30 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "4:00 PM - Walk-ins Only"},
+                    {"time-and-type": "4:30 PM - Walk-ins Only"},
+                    {"time-and-type": "5:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "5:30 PM - Walk-ins Only"},
+                    {"time-and-type": "6:00 PM - Walk-ins Only"},
+                    {"time-and-type": "6:30 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "7:00 PM - Walk-ins Only"},
+                    {"time-and-type": "7:30 PM - Walk-ins Only"},
+                    {"time-and-type": "8:00 PM - Walk-ins Only"}
+                ],
+                "Baptism-Schedule":
+                [
+                    {"time-and-type": "5:15 AM - 4:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "4:00 PM - 8:00 PM - Church Groups - Walk-ins and Appointments"}
+                ],
+                "Initiatory-Schedule":
+                [
+                    {"time-and-type": "6:30 AM - 8:00 PM - Walk-ins Only"}
+                ],
+                "Sealing-Schedule":
+                [
+                    {"time-and-type": "7:15 AM - 8:00 PM - Walk-ins Only"}
+                ]
+            },
+            "temple-closure-schedule":
+            [
+                {"closure" : "Tuesday, 24 December 2019 - Wednesday, 25 December 2019"},
+                {"closure" : "Tuesday, 31 December 2019"},
+                {"closure" : "Wednesday, 1 January 2020"},
+                {"closure" : "Monday, 23 March 2020 - Monday, 6 April 2020"},
+                {"closure" : "Saturday, 16 May 2020 (Limited Hours)"},
+                {"closure" : "Saturday, 4 July 2020"},
+                {"closure" : "Friday, 24 July 2020"},
+                {"closure" : "Monday, 31 August 2020 - Monday, 14 September 2020"},
+                {"closure" : "Saturday, 3 October 2020"},
+                {"closure" : "Saturday, 31 October 2020 (Limited Hours)"},
+                {"closure" : "Wednesday, 25 November 2020 (Limited Hours)"},
+                {"closure" : "Thursday, 26 November 2020"},
+                {"closure" : "Thursday, 24 December 2020 - Friday, 25 December 2020"},
+                {"closure" : "Thursday, 31 December 2020"}
+            ]
+        },
+        {
+            "temple-name": "Manti",
+            "temple-full-name": "Manti, Utah Temple",
+            "temple-address-1": "200 East 510 North",
+            "temple-address-2": "Manti, UT 84642",
+            "temple-phone": "435-835-2291",
+            "temple-email": "mantitemple@churchofjesuschrist.org",
+            "temple-services":
+            [
+                {"service-name": "Clothing rental available"},
+                {"service-name": "Cafeteria available"},
+                {"service-name": "No patron housing available"},
+                {"service-name": "Distribution center nearby"}
+            ],
+            "temple-history":
+            [
+                {"milestone": "25 June 1875 - Announced"},
+                {"milestone": "25 April 1877 - Groundbreaking"},
+                {"milestone": "21 May 1888 - Dedicated"},
+                {"milestone": "14 June 1985 - Rededicated"}
+            ],
+            "temple-ordinance-schedule":
+            {
+                "Endowment-Schedule":
+                [
+                    {"time-and-type": "7:30 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "8:30 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "9:30 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "10:30 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "11:30 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "12:30 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "1:30 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "2:30 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "3:30 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "4:30 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "5:30 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "6:30 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "7:30 PM - Walk-ins and Appointments"}                    
+                ],
+                "Baptism-Schedule":
+                [
+                    {"time-and-type": "6:30 AM - 8:00 PM - Appointments Only"}
+                ],
+                "Initiatory-Schedule":
+                [
+                    {"time-and-type": "7:00 AM - 8:00 PM - Walk-ins and Appointments"}
+                ],
+                "Sealing-Schedule":
+                [
+                    {"time-and-type": "7:00 AM - 8:32 PM - Walk-ins and Appointments"}
+                ]
+            },
+            "temple-closure-schedule":
+            [
+                {"closure" : "Tuesday, 24 December 2019 - Thursday, 26 December 2019"},
+                {"closure" : "Tuesday, 31 December 2019"},
+                {"closure" : "Wednesday, 1 January 2020"},
+                {"closure" : "Saturday, 4 April 2020"},
+                {"closure" : "Monday, 6 April 2020 - Monday, 20 April 2020"},
+                {"closure" : "Friday, 3 July 2020 (Limited Hours)"},
+                {"closure" : "Saturday, 4 July 2020"},
+                {"closure" : "Friday, 24 July 2020"},
+                {"closure" : "Saturday, 3 October 2020"},
+                {"closure" : "Monday, 5 October 2020 - Monday, 19 October 2020"},
+                {"closure" : "Wednesday, 25 November 2020 (Limited Hours)"},
+                {"closure" : "Thursday, 26 November 2020"},
+                {"closure" : "Thursday, 24 December 2020 - Saturday, 26 December 2020"},
+                {"closure" : "Thursday, 31 December 2020 (Limited Hours)"}
+            ]
+        },
+        {
+            "temple-name": "San Diego",
+            "temple-full-name": "San Diego, California Temple",
+            "temple-address-1": "7474 Charmant Dr",
+            "temple-address-2": "San Diego CA 92122",
+            "temple-phone": "858-622-0991",
+            "temple-email": "sandiegotemple@churchofjesuschrist.org",
+            "temple-services":
+            [
+                {"service-name": "Clothing rental available"},
+                {"service-name": "Cafeteria available"},
+                {"service-name": "No patron housing available"},
+                {"service-name": "Distribution center nearby"}
+            ],
+            "temple-history":
+            [
+                {"milestone": "7 April 1984 - Announced"},
+                {"milestone": "27 February 1988 - Groundbreaking"},
+                {"milestone": "25 April 1984 - Dedicated"}
+            ],
+            "temple-ordinance-schedule":
+            {
+                "Endowment-Schedule":
+                [
+                    {"time-and-type": "5:30 AM - Walk-ins Only"},
+                    {"time-and-type": "8:00 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "9:00 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "9:30 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "10:00 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "11:00 AM - Walk-ins and Appointments"},
+                    {"time-and-type": "12:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "1:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "2:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "3:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "4:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "5:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "6:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "6:30 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "7:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "7:30 PM - Walk-ins and Appointments"}
+                ],
+                "Baptism-Schedule":
+                [
+                    {"time-and-type": "8:00 AM - 5:00 PM - Walk-ins and Appointments"},
+                    {"time-and-type": "5:00 PM - 8:00 PM - Church Groups - Appointments Only"}
+                ],
+                "Initiatory-Schedule":
+                [
+                    {"time-and-type": "8:00 AM - 8:30 PM - Walk-ins and Appointments"}
+                ],
+                "Sealing-Schedule":
+                [
+                    {"time-and-type": "8:00 AM - 8:30 PM - Walk-ins and Appointments"}
+                ]
+            },
+            "temple-closure-schedule":
+            [
+                {"closure" : "Tuesday, 24 December 2019 - Wednesday, 25 December 2019"},
+                {"closure" : "Tuesday, 31 December 2019"},
+                {"closure" : "Wednesday, 1 January 2020"},
+                {"closure" : "Monday, 16 March 2020 - Monday, 30 March 2020"},
+                {"closure" : "Saturday, 4 April 2020"},
+                {"closure" : "Saturday, 4 July 2020"},
+                {"closure" : "Monday, 14 September 2020 - Monday, 28 September 2020"},
+                {"closure" : "Saturday, 3 October 2020"},
+                {"closure" : "Wednesday, 25 November 2020 - Thursday, 26 November 2020"},
+                {"closure" : "Thursday, 24 December 2020 - Friday, 25 December 2020"},
+                {"closure" : "Thursday, 31 December 2020"}
+            ]
+        }
+    ]
+
+}
