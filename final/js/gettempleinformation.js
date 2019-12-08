@@ -11,7 +11,31 @@ fetch(templeInformationLocation)
   
   .then(function (jsonObject)
   {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    console.table(jsonObject);
+
+    for (i = 0; i < jsonObject['temples'].length; i++)
+    {
+        document.getElementById("temple-name-" + i).innerHTML = jsonObject['temples'][i]['temple-full-name'];
+
+        document.getElementById("temple-address-" + i).innerHTML = jsonObject['temples'][i]['temple-address-1'] + ", " + jsonObject['temples'][i]['temple-address-2'];
+
+        document.getElementById("temple-phone-" + i).innerHTML = jsonObject['temples'][i]['temple-phone'];
+
+        document.getElementById("temple-email-" + i).innerHTML = jsonObject['temples'][i]['temple-email'];
+
+        for (j = 0; j < jsonObject['temples'][i]['temple-history'].length; j++)
+        {
+            let templeHistoryListItem = document.createElement('li');
+
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-history'][j]["milestone"];
+
+            document.getElementById("temple-history-" + i).appendChild(templeHistoryListItem);
+        }
+
+
+
+
+    }
 
     // document.getElementById("current-weather-temperature").innerHTML = jsonObject['main']['temp'];
 
