@@ -51,9 +51,9 @@ fetch(templeInformationLocation)
         {
             let templeHistoryListItem = document.createElement('li');
 
-            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-schedule']['initiatory-schedule'][j]["time-and-type"];
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-ordinance-schedule']['initiatory-schedule'][j]["time-and-type"];
 
-            document.getElementById("temple-initatory-schedule-" + i).appendChild(templeHistoryListItem);
+            document.getElementById("temple-initiatory-schedule-" + i).appendChild(templeHistoryListItem);
         }
 
 
@@ -65,6 +65,39 @@ fetch(templeInformationLocation)
             templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-ordinance-schedule']['sealing-schedule'][j]["time-and-type"];
 
             document.getElementById("temple-sealing-schedule-" + i).appendChild(templeHistoryListItem);
+        }
+
+
+        
+        for (j = 0; j < jsonObject['temples'][i]['temple-ordinance-schedule']['endowment-schedule'].length; j++)
+        {
+            let templeHistoryListItem = document.createElement('li');
+
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-ordinance-schedule']['endowment-schedule'][j]["time-and-type"];
+
+            document.getElementById("temple-endowment-schedule-" + i).appendChild(templeHistoryListItem);
+        }
+
+
+
+        for (j = 0; j < jsonObject['temples'][i]['temple-services'].length; j++)
+        {
+            let templeHistoryListItem = document.createElement('li');
+
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-services'][j]["service-name"];
+
+            document.getElementById("temple-services-" + i).appendChild(templeHistoryListItem);
+        }
+
+
+
+        for (j = 0; j < jsonObject['temples'][i]['temple-closure-schedule'].length; j++)
+        {
+            let templeHistoryListItem = document.createElement('li');
+
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-closure-schedule'][j]["closure"];
+
+            document.getElementById("temple-closure-schedule-" + i).appendChild(templeHistoryListItem);
         }
     }
 
