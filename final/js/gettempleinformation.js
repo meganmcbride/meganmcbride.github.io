@@ -23,6 +23,8 @@ fetch(templeInformationLocation)
 
         document.getElementById("temple-email-" + i).innerHTML = jsonObject['temples'][i]['temple-email'];
 
+
+
         for (j = 0; j < jsonObject['temples'][i]['temple-history'].length; j++)
         {
             let templeHistoryListItem = document.createElement('li');
@@ -34,7 +36,36 @@ fetch(templeInformationLocation)
 
 
 
+        for (j = 0; j < jsonObject['temples'][i]['temple-ordinance-schedule']['baptism-schedule'].length; j++)
+        {
+            let templeHistoryListItem = document.createElement('li');
 
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-ordinance-schedule']['baptism-schedule'][j]["time-and-type"];
+
+            document.getElementById("temple-baptistry-schedule-" + i).appendChild(templeHistoryListItem);
+        }
+
+
+
+        for (j = 0; j < jsonObject['temples'][i]['temple-ordinance-schedule']['initiatory-schedule'].length; j++)
+        {
+            let templeHistoryListItem = document.createElement('li');
+
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-schedule']['initiatory-schedule'][j]["time-and-type"];
+
+            document.getElementById("temple-initatory-schedule-" + i).appendChild(templeHistoryListItem);
+        }
+
+
+
+        for (j = 0; j < jsonObject['temples'][i]['temple-ordinance-schedule']['sealing-schedule'].length; j++)
+        {
+            let templeHistoryListItem = document.createElement('li');
+
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-ordinance-schedule']['sealing-schedule'][j]["time-and-type"];
+
+            document.getElementById("temple-sealing-schedule-" + i).appendChild(templeHistoryListItem);
+        }
     }
 
     // document.getElementById("current-weather-temperature").innerHTML = jsonObject['main']['temp'];

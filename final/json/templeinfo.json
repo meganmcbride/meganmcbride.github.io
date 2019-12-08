@@ -23,7 +23,7 @@
             ],
             "temple-ordinance-schedule":
             {
-                "Endowment-Schedule":
+                "endowment-schedule":
                 [
                     {"time-and-type": "5:30 AM - Walk-ins Only"},
                     {"time-and-type": "6:15 AM - Walk-ins Only"},
@@ -46,16 +46,16 @@
                     {"time-and-type": "7:00 PM - Walk-ins Only"},
                     {"time-and-type": "7:45 PM - Walk-ins Only - Spanish"}
                 ],
-                "Baptism-Schedule":
+                "baptism-schedule":
                 [
                     {"time-and-type": "5:30 AM - 4:00 PM - Walk-ins Only"},
                     {"time-and-type": "4:00 PM - 8:30 PM - Church Groups - Walk-ins and Appointments"}
                 ],
-                "Initiatory-Schedule":
+                "initiatory-schedule":
                 [
                     {"time-and-type": "6:30 AM - 8:30 PM - Walk-ins Only"}
                 ],
-                "Sealing-Schedule":
+                "sealing-schedule":
                 [
                     {"time-and-type": "5:30 AM - 8:30 PM - Walk-ins Only"}
                 ]
@@ -98,7 +98,7 @@
             ],
             "temple-ordinance-schedule":
             {
-                "Endowment-Schedule":
+                "endowment-schedule":
                 [
                     {"time-and-type": "7:00 AM - Walk-ins Only"},
                     {"time-and-type": "7:30 AM - Walk-ins Only"},
@@ -128,16 +128,16 @@
                     {"time-and-type": "7:30 PM - Walk-ins Only"},
                     {"time-and-type": "8:00 PM - Walk-ins Only"}
                 ],
-                "Baptism-Schedule":
+                "baptism-schedule":
                 [
                     {"time-and-type": "5:15 AM - 4:00 PM - Walk-ins and Appointments"},
                     {"time-and-type": "4:00 PM - 8:00 PM - Church Groups - Walk-ins and Appointments"}
                 ],
-                "Initiatory-Schedule":
+                "initiatory-schedule":
                 [
                     {"time-and-type": "6:30 AM - 8:00 PM - Walk-ins Only"}
                 ],
-                "Sealing-Schedule":
+                "sealing-schedule":
                 [
                     {"time-and-type": "7:15 AM - 8:00 PM - Walk-ins Only"}
                 ]
@@ -183,7 +183,7 @@
             ],
             "temple-ordinance-schedule":
             {
-                "Endowment-Schedule":
+                "endowment-schedule":
                 [
                     {"time-and-type": "7:30 AM - Walk-ins and Appointments"},
                     {"time-and-type": "8:30 AM - Walk-ins and Appointments"},
@@ -199,15 +199,15 @@
                     {"time-and-type": "6:30 PM - Walk-ins and Appointments"},
                     {"time-and-type": "7:30 PM - Walk-ins and Appointments"}                    
                 ],
-                "Baptism-Schedule":
+                "baptism-schedule":
                 [
                     {"time-and-type": "6:30 AM - 8:00 PM - Appointments Only"}
                 ],
-                "Initiatory-Schedule":
+                "initiatory-schedule":
                 [
                     {"time-and-type": "7:00 AM - 8:00 PM - Walk-ins and Appointments"}
                 ],
-                "Sealing-Schedule":
+                "sealing-schedule":
                 [
                     {"time-and-type": "7:00 AM - 8:32 PM - Walk-ins and Appointments"}
                 ]
@@ -252,7 +252,7 @@
             ],
             "temple-ordinance-schedule":
             {
-                "Endowment-Schedule":
+                "endowment-schedule":
                 [
                     {"time-and-type": "5:30 AM - Walk-ins Only"},
                     {"time-and-type": "8:00 AM - Walk-ins and Appointments"},
@@ -271,16 +271,16 @@
                     {"time-and-type": "7:00 PM - Walk-ins and Appointments"},
                     {"time-and-type": "7:30 PM - Walk-ins and Appointments"}
                 ],
-                "Baptism-Schedule":
+                "baptism-schedule":
                 [
                     {"time-and-type": "8:00 AM - 5:00 PM - Walk-ins and Appointments"},
                     {"time-and-type": "5:00 PM - 8:00 PM - Church Groups - Appointments Only"}
                 ],
-                "Initiatory-Schedule":
+                "initiatory-schedule":
                 [
                     {"time-and-type": "8:00 AM - 8:30 PM - Walk-ins and Appointments"}
                 ],
-                "Sealing-Schedule":
+                "sealing-schedule":
                 [
                     {"time-and-type": "8:00 AM - 8:30 PM - Walk-ins and Appointments"}
                 ]
