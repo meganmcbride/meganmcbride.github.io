@@ -145,19 +145,19 @@
             "temple-closure-schedule":
             [
                 {"closure" : "2019/12/24 - 2019/12/25"},
-                {"closure" : "Tuesday, 31 December 2019"},
-                {"closure" : "Wednesday, 1 January 2020"},
-                {"closure" : "Monday, 23 March 2020 - Monday, 6 April 2020"},
-                {"closure" : "Saturday, 16 May 2020 (Limited Hours)"},
-                {"closure" : "Saturday, 4 July 2020"},
-                {"closure" : "Friday, 24 July 2020"},
-                {"closure" : "Monday, 31 August 2020 - Monday, 14 September 2020"},
-                {"closure" : "Saturday, 3 October 2020"},
-                {"closure" : "Saturday, 31 October 2020 (Limited Hours)"},
-                {"closure" : "Wednesday, 25 November 2020 (Limited Hours)"},
-                {"closure" : "Thursday, 26 November 2020"},
-                {"closure" : "Thursday, 24 December 2020 - Friday, 25 December 2020"},
-                {"closure" : "Thursday, 31 December 2020"}
+                {"closure" : "2019/12/31"},
+                {"closure" : "2020/1/1"},
+                {"closure" : "2020/3/23 - 2020/4/6"},
+                {"closure" : "2020/5/16 (Lmtd. Hrs.)"},
+                {"closure" : "2020/7/4"},
+                {"closure" : "2020/7/24"},
+                {"closure" : "2020/8/31 - 2020/9/14"},
+                {"closure" : "2020/10/3"},
+                {"closure" : "2020/10/31 (Lmtd. Hrs.)"},
+                {"closure" : "2020/11/25 (Lmtd. Hrs.)"},
+                {"closure" : "2020/11/26"},
+                {"closure" : "2020/12/24 - 2020/12/25"},
+                {"closure" : "2020/12/31"}
             ]
         },
         {
@@ -219,15 +219,15 @@
                 {"closure" : "Wednesday, 1 January 2020"},
                 {"closure" : "Saturday, 4 April 2020"},
                 {"closure" : "Monday, 6 April 2020 - Monday, 20 April 2020"},
-                {"closure" : "Friday, 3 July 2020 (Limited Hours)"},
+                {"closure" : "Friday, 3 July 2020 (Lmtd. Hrs.)"},
                 {"closure" : "Saturday, 4 July 2020"},
                 {"closure" : "Friday, 24 July 2020"},
                 {"closure" : "Saturday, 3 October 2020"},
                 {"closure" : "Monday, 5 October 2020 - Monday, 19 October 2020"},
-                {"closure" : "Wednesday, 25 November 2020 (Limited Hours)"},
+                {"closure" : "Wednesday, 25 November 2020 (Lmtd. Hrs.)"},
                 {"closure" : "Thursday, 26 November 2020"},
                 {"closure" : "Thursday, 24 December 2020 - Saturday, 26 December 2020"},
-                {"closure" : "Thursday, 31 December 2020 (Limited Hours)"}
+                {"closure" : "Thursday, 31 December 2020 (Lmtd. Hrs.)"}
             ]
         },
         {
