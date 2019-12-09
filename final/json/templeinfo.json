@@ -49,7 +49,7 @@
                 "baptism-schedule":
                 [
                     {"time-and-type": "5:30 AM - 4:00 PM - Walk-ins Only"},
-                    {"time-and-type": "4:00 PM - 8:30 PM - Church Groups - Walk-ins & Appointments"}
+                    {"time-and-type": "4:00 PM - 8:30 PM - Church Groups - Walk-ins & Appts."}
                 ],
                 "initiatory-schedule":
                 [
@@ -105,33 +105,33 @@
                     {"time-and-type": "8:00 AM - Walk-ins Only"},
                     {"time-and-type": "8:30 AM - Walk-ins Only"},
                     {"time-and-type": "9:00 AM - Walk-ins Only"},
-                    {"time-and-type": "9:30 AM - Walk-ins & Appointments"},
+                    {"time-and-type": "9:30 AM - Walk-ins & Appts."},
                     {"time-and-type": "10:00 AM - Walk-ins Only"},
                     {"time-and-type": "10:30 AM - Walk-ins Only"},
-                    {"time-and-type": "11:00 AM - Walk-ins & Appointments"},
+                    {"time-and-type": "11:00 AM - Walk-ins & Appts."},
                     {"time-and-type": "11:30 AM - Walk-ins Only"},
                     {"time-and-type": "12:00 PM - Walk-ins Only"},
                     {"time-and-type": "12:30 PM - Walk-ins Only"},
                     {"time-and-type": "1:00 PM - Walk-ins Only"},
                     {"time-and-type": "1:30 PM - Walk-ins Only"},
-                    {"time-and-type": "2:00 PM - Walk-ins & Appointments"},
+                    {"time-and-type": "2:00 PM - Walk-ins & Appts."},
                     {"time-and-type": "2:30 PM - Walk-ins Only"},
                     {"time-and-type": "3:00 PM - Walk-ins Only"},
-                    {"time-and-type": "3:30 PM - Walk-ins & Appointments"},
+                    {"time-and-type": "3:30 PM - Walk-ins & Appts."},
                     {"time-and-type": "4:00 PM - Walk-ins Only"},
                     {"time-and-type": "4:30 PM - Walk-ins Only"},
-                    {"time-and-type": "5:00 PM - Walk-ins & Appointments"},
+                    {"time-and-type": "5:00 PM - Walk-ins & Appts."},
                     {"time-and-type": "5:30 PM - Walk-ins Only"},
                     {"time-and-type": "6:00 PM - Walk-ins Only"},
-                    {"time-and-type": "6:30 PM - Walk-ins & Appointments"},
+                    {"time-and-type": "6:30 PM - Walk-ins & Appts."},
                     {"time-and-type": "7:00 PM - Walk-ins Only"},
                     {"time-and-type": "7:30 PM - Walk-ins Only"},
                     {"time-and-type": "8:00 PM - Walk-ins Only"}
                 ],
                 "baptism-schedule":
                 [
-                    {"time-and-type": "5:15 AM - 4:00 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "4:00 PM - 8:00 PM - Church Groups - Walk-ins & Appointments"}
+                    {"time-and-type": "5:15 AM - 4:00 PM - Walk-ins & Appts."},
+                    {"time-and-type": "4:00 PM - 8:00 PM - Church Groups - Walk-ins & Appts."}
                 ],
                 "initiatory-schedule":
                 [
@@ -185,31 +185,31 @@
             {
                 "endowment-schedule":
                 [
-                    {"time-and-type": "7:30 AM - Walk-ins & Appointments"},
-                    {"time-and-type": "8:30 AM - Walk-ins & Appointments"},
-                    {"time-and-type": "9:30 AM - Walk-ins & Appointments"},
-                    {"time-and-type": "10:30 AM - Walk-ins & Appointments"},
-                    {"time-and-type": "11:30 AM - Walk-ins & Appointments"},
-                    {"time-and-type": "12:30 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "1:30 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "2:30 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "3:30 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "4:30 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "5:30 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "6:30 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "7:30 PM - Walk-ins & Appointments"}                    
+                    {"time-and-type": "7:30 AM - Walk-ins & Appts."},
+                    {"time-and-type": "8:30 AM - Walk-ins & Appts."},
+                    {"time-and-type": "9:30 AM - Walk-ins & Appts."},
+                    {"time-and-type": "10:30 AM - Walk-ins & Appts."},
+                    {"time-and-type": "11:30 AM - Walk-ins & Appts."},
+                    {"time-and-type": "12:30 PM - Walk-ins & Appts."},
+                    {"time-and-type": "1:30 PM - Walk-ins & Appts."},
+                    {"time-and-type": "2:30 PM - Walk-ins & Appts."},
+                    {"time-and-type": "3:30 PM - Walk-ins & Appts."},
+                    {"time-and-type": "4:30 PM - Walk-ins & Appts."},
+                    {"time-and-type": "5:30 PM - Walk-ins & Appts."},
+                    {"time-and-type": "6:30 PM - Walk-ins & Appts."},
+                    {"time-and-type": "7:30 PM - Walk-ins & Appts."}                    
                 ],
                 "baptism-schedule":
                 [
-                    {"time-and-type": "6:30 AM - 8:00 PM - Appointments Only"}
+                    {"time-and-type": "6:30 AM - 8:00 PM - Appts. Only"}
                 ],
                 "initiatory-schedule":
                 [
-                    {"time-and-type": "7:00 AM - 8:00 PM - Walk-ins & Appointments"}
+                    {"time-and-type": "7:00 AM - 8:00 PM - Walk-ins & Appts."}
                 ],
                 "sealing-schedule":
                 [
-                    {"time-and-type": "7:00 AM - 8:32 PM - Walk-ins & Appointments"}
+                    {"time-and-type": "7:00 AM - 8:32 PM - Walk-ins & Appts."}
                 ]
             },
             "temple-closure-schedule":
@@ -255,34 +255,34 @@
                 "endowment-schedule":
                 [
                     {"time-and-type": "5:30 AM - Walk-ins Only"},
-                    {"time-and-type": "8:00 AM - Walk-ins & Appointments"},
-                    {"time-and-type": "9:00 AM - Walk-ins & Appointments"},
-                    {"time-and-type": "9:30 AM - Walk-ins & Appointments"},
-                    {"time-and-type": "10:00 AM - Walk-ins & Appointments"},
-                    {"time-and-type": "11:00 AM - Walk-ins & Appointments"},
-                    {"time-and-type": "12:00 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "1:00 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "2:00 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "3:00 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "4:00 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "5:00 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "6:00 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "6:30 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "7:00 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "7:30 PM - Walk-ins & Appointments"}
+                    {"time-and-type": "8:00 AM - Walk-ins & Appts."},
+                    {"time-and-type": "9:00 AM - Walk-ins & Appts."},
+                    {"time-and-type": "9:30 AM - Walk-ins & Appts."},
+                    {"time-and-type": "10:00 AM - Walk-ins & Appts."},
+                    {"time-and-type": "11:00 AM - Walk-ins & Appts."},
+                    {"time-and-type": "12:00 PM - Walk-ins & Appts."},
+                    {"time-and-type": "1:00 PM - Walk-ins & Appts."},
+                    {"time-and-type": "2:00 PM - Walk-ins & Appts."},
+                    {"time-and-type": "3:00 PM - Walk-ins & Appts."},
+                    {"time-and-type": "4:00 PM - Walk-ins & Appts."},
+                    {"time-and-type": "5:00 PM - Walk-ins & Appts."},
+                    {"time-and-type": "6:00 PM - Walk-ins & Appts."},
+                    {"time-and-type": "6:30 PM - Walk-ins & Appts."},
+                    {"time-and-type": "7:00 PM - Walk-ins & Appts."},
+                    {"time-and-type": "7:30 PM - Walk-ins & Appts."}
                 ],
                 "baptism-schedule":
                 [
-                    {"time-and-type": "8:00 AM - 5:00 PM - Walk-ins & Appointments"},
-                    {"time-and-type": "5:00 PM - 8:00 PM - Church Groups - Appointments Only"}
+                    {"time-and-type": "8:00 AM - 5:00 PM - Walk-ins & Appts."},
+                    {"time-and-type": "5:00 PM - 8:00 PM - Church Groups - Appts. Only"}
                 ],
                 "initiatory-schedule":
                 [
-                    {"time-and-type": "8:00 AM - 8:30 PM - Walk-ins & Appointments"}
+                    {"time-and-type": "8:00 AM - 8:30 PM - Walk-ins & Appts."}
                 ],
                 "sealing-schedule":
                 [
-                    {"time-and-type": "8:00 AM - 8:30 PM - Walk-ins & Appointments"}
+                    {"time-and-type": "8:00 AM - 8:30 PM - Walk-ins & Appts."}
                 ]
             },
             "temple-closure-schedule":
