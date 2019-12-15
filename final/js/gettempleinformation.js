@@ -11,7 +11,7 @@ fetch(templeInformationLocation)
   
   .then(function (jsonObject)
   {
-    console.table(jsonObject);
+    // console.table(jsonObject);
 
     for (i = 0; i < jsonObject['temples'].length; i++)
     {
@@ -38,9 +38,9 @@ fetch(templeInformationLocation)
 
         for (j = 0; j < jsonObject['temples'][i]['temple-ordinance-schedule']['baptism-schedule'].length; j++)
         {
-            let templeHistoryListItem = document.createElement('li');
+            let templeHistoryListItem = document.createElement('div');
 
-            templeHistoryListItem.innerHTML = "• " + jsonObject['temples'][i]['temple-ordinance-schedule']['baptism-schedule'][j]["time-and-type"];
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-ordinance-schedule']['baptism-schedule'][j]["time-and-type"];
 
             document.getElementById("temple-baptistry-schedule-" + i).appendChild(templeHistoryListItem);
         }
@@ -49,9 +49,9 @@ fetch(templeInformationLocation)
 
         for (j = 0; j < jsonObject['temples'][i]['temple-ordinance-schedule']['initiatory-schedule'].length; j++)
         {
-            let templeHistoryListItem = document.createElement('li');
+            let templeHistoryListItem = document.createElement('div');
 
-            templeHistoryListItem.innerHTML = "• " + jsonObject['temples'][i]['temple-ordinance-schedule']['initiatory-schedule'][j]["time-and-type"];
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-ordinance-schedule']['initiatory-schedule'][j]["time-and-type"];
 
             document.getElementById("temple-initiatory-schedule-" + i).appendChild(templeHistoryListItem);
         }
@@ -60,9 +60,9 @@ fetch(templeInformationLocation)
 
         for (j = 0; j < jsonObject['temples'][i]['temple-ordinance-schedule']['sealing-schedule'].length; j++)
         {
-            let templeHistoryListItem = document.createElement('li');
+            let templeHistoryListItem = document.createElement('div');
 
-            templeHistoryListItem.innerHTML = "• " + jsonObject['temples'][i]['temple-ordinance-schedule']['sealing-schedule'][j]["time-and-type"];
+            templeHistoryListItem.innerHTML = jsonObject['temples'][i]['temple-ordinance-schedule']['sealing-schedule'][j]["time-and-type"];
 
             document.getElementById("temple-sealing-schedule-" + i).appendChild(templeHistoryListItem);
         }

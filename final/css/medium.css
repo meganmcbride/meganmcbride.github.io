@@ -111,7 +111,7 @@
 
         background-color: rgba(83, 74, 60, 0);
 
-        background-color: none;
+        background-color: transparent;
     
         padding-top: 0px;
     
@@ -225,4 +225,55 @@
     
     }
 
+    .about-text-div {
+
+        padding-left: 0px;
+        
+        padding-right: 0px;
+    
+    }
+    
+    .contact-information-div {
+    
+        padding-left: 0px;
+        
+        padding-right: 0px;
+    
+    }
+
+    .temple-page-title {
+
+        padding-left: 0px;
+    
+    }
+
+    .service-body-text h2, .service-body-text hr {
+
+        margin-left: 0px;
+    
+    }
+
+    .reservation-body-text h2, .reservation-body-text hr, .reservation-body-text p {
+
+        margin-left: 0px;
+    
+        margin-right: 0px;
+    
+    }
+
+    .contact-main-div h2, .contact-main-div hr {
+
+        margin-left: 0px;
+
+        margin-right: 0px;
+
+    }
+
+    .contact2-information-div {
+    
+        margin-left: 0px;
+    
+        margin-right: 0px;
+    
+    }
 }

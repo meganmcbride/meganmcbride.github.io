@@ -21,7 +21,7 @@ fetch(gilbertWeatherRequestURL)
   .then(function (jsonObject)
   {
 
-    console.table(jsonObject);
+    // console.table(jsonObject);
 
     document.getElementById("current-weather-0").innerHTML = jsonObject['main']['temp'] + "°F, " + jsonObject["weather"][0]["main"];  
 
@@ -42,7 +42,7 @@ fetch(ogdenWeatherRequestURL)
   .then(function (jsonObject)
   {
       
-    console.table(jsonObject);
+    // console.table(jsonObject);
 
     document.getElementById("current-weather-1").innerHTML = jsonObject['main']['temp'] + "°F, " + jsonObject["weather"][0]["main"];  
 
@@ -63,7 +63,7 @@ fetch(mantiWeatherRequestURL)
   .then(function (jsonObject)
   {
       
-    console.table(jsonObject);
+    // console.table(jsonObject);
 
     document.getElementById("current-weather-2").innerHTML = jsonObject['main']['temp'] + "°F, " + jsonObject["weather"][0]["main"];  
 
@@ -84,7 +84,7 @@ fetch(sanDiegoWeatherRequestURL)
   .then(function (jsonObject)
   {
       
-    console.table(jsonObject);
+    // console.table(jsonObject);
 
     document.getElementById("current-weather-3").innerHTML = jsonObject['main']['temp'] + "°F, " + jsonObject["weather"][0]["main"];  
 

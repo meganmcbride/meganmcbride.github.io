@@ -1,4 +1,4 @@
-:root {
+/* :root {
 
     --header-background-color: #534A3C;
 
@@ -36,7 +36,7 @@
 
     --temple-info-link-color: #DED2A8;
 
-}
+} */
 
 
 
@@ -44,7 +44,7 @@ body {
 
     font-family: 'Quicksand', sans-serif;
 
-    /*background-color: var(--body-background-color);*/
+    /*background-color: #534A3C;*/
 
 }
 
@@ -68,9 +68,9 @@ header h2 {
 
 header {
 
-    background-color: var(--header-background-color);
+    background-color: #534A3C;
 
-    color: var(--header-text-color);
+    color: #FFFFFF;
 
     padding-top: 30px;
 
@@ -114,9 +114,9 @@ header {
 
 nav {
 
-    background-color: var(--navbar-background-color);
+    background-color: #A0AC60;
 
-    color: var(--navbar-text-color);
+    color: #FFFFFF;
 
     /* display: flex;
 
@@ -186,7 +186,7 @@ nav a {
 
 nav a:link {
 
-    color: var(--navbar-text-color);
+    color: #FFFFFF;
 
 }
 
@@ -194,7 +194,7 @@ nav a:link {
 
 nav a:visited {
 
-    color: var(--navbar-text-color);
+    color: #FFFFFF;
     
 }
 
@@ -202,7 +202,7 @@ nav a:visited {
 
 nav a:hover {
 
-    color: var(--navbar-hover-active-color);
+    color: #534A3C;
     
 }
 
@@ -210,7 +210,7 @@ nav a:hover {
 
 nav a:active {
 
-    color: var(--navbar-hover-active-color);
+    color: #534A3C;
     
 }
 
@@ -218,33 +218,33 @@ nav a:active {
 
 a.current-page:link {
 
-    background-color: var(--navbar-curent-page-background-color);
+    background-color: #534A3C;
 
-    color: var(--navbar-curent-page-text-color);
+    color: #A0AC60;
 
 }
 
 a.current-page:visited {
 
-    background-color: var(--navbar-curent-page-background-color);
+    background-color: #534A3C;
 
-    color: var(--navbar-curent-page-text-color);
+    color: #A0AC60;
 
 }
 
 a.current-page:hover {
 
-    background-color: var(--navbar-curent-page-background-color);
+    background-color: #534A3C;
 
-    color: var(--navbar-curent-page-text-hover-color);
+    color: #FFFFFF;
 
 }
 
 a.current-page:active {
 
-    background-color: var(--navbar-curent-page-background-color);
+    background-color: #534A3C;
 
-    color: var(--navbar-curent-page-text-hover-color);
+    color: #FFFFFF;
 
 }
 
@@ -252,9 +252,9 @@ a.current-page:active {
 
 main {
 
-    background-color: var(--main-background-color);
+    background-color: #FFFFFF;
 
-    color: var(--main-text-color);
+    color: #534A3C;
 
 }
 
@@ -285,7 +285,7 @@ main {
     
     text-decoration: none;
 
-    color: var(--floating-reservation-text-color);
+    color: #FFFFFF;
 
     font-size: 1.1em;
 
@@ -312,25 +312,25 @@ main {
 
 .centered-floating-text a:link {
 
-    color: var(--floating-reservation-text-color);
+    color: #FFFFFF;
 
 }
 
 .centered-floating-text:visited {
 
-    color: var(--floating-reservation-text-color);
+    color: #FFFFFF;
 
 }
 
 .centered-floating-text:hover {
 
-    color: var(--floating-reservation-text-color);
+    color: #FFFFFF;
 
 }
 
 .centered-floating-text:active {
 
-    color: var(--floating-reservation-text-color);
+    color: #FFFFFF;
 
 }
 
@@ -383,9 +383,9 @@ main {
 
     /*max-height and overflow are your friends*/
 
-    background-color: var(--main-alternate-background-color);
+    background-color: #A0AC60;
 
-    color: var(--main-alternate-text-color);
+    color: #FFFFFF;
 
     border-bottom: 3px solid #FFFFFF;
 
@@ -427,9 +427,9 @@ main {
 
 footer {
 
-    background-color: var(--footer-background-color);
+    background-color: #534A3C;
 
-    color: var(--footer-text-color);
+    color: #FFFFFF;
 
     text-align: center;
 
@@ -487,7 +487,7 @@ footer {
 
     text-align: center;
 
-    background-color: var(--main-alternate-background-color);
+    background-color: #A0AC60;
 
 }
 
@@ -495,31 +495,31 @@ footer {
 
 .single-temple-info-text-div a {
 
-    color: var(--main-text-color);
+    color: #534A3C;
 
 }
 
 .single-temple-info-text-div a:link {
 
-    color: var(--main-text-color);
+    color: #534A3C;
 
 }
 
 .single-temple-info-text-div a:visited {
 
-    color: var(--main-text-color);
+    color: #534A3C;
 
 }
 
 .single-temple-info-text-div a:hover {
 
-    color: var(--temple-info-link-color);
+    color: #DED2A8;
 
 }
 
 .single-temple-info-text-div a:active {
 
-    color: var(--temple-info-link-color);
+    color: #DED2A8;
 
 }
 
@@ -532,15 +532,21 @@ footer {
 
 .color-highlight {
 
-    color: var(--main-text-color);
+    color: #534A3C;
 
 }
 
 
+.click-text {
+
+    display: inline;
+
+}
+
 
 .click-text:before {
 
-    color: var(--main-text-color);
+    color: #534A3C;
     content: "Click ";
 
 }
@@ -556,7 +562,7 @@ footer {
 .tooltip .tooltiptext {
 
     width: 200px;
-    background-color: var(--body-background-color);
+    background-color: #534A3C;
     color: #fff;
     text-align: center;
     padding: 5px 0;
@@ -584,6 +590,14 @@ footer {
     display: inline;
 
 }
+
+/* .ordinance-list {
+
+    margin-left: -10px;
+
+    padding-left: -10px;
+
+} */
 
 .no-list-style {
 
@@ -637,11 +651,11 @@ hr {
 
     height: 6px;
 
-    color: var(--main-alternate-background-color);
+    color: #A0AC60;
 
-    background-color: var(--main-alternate-background-color);
+    background-color: #A0AC60;
 
-    border-color: var(--main-alternate-background-color);
+    border-color: #A0AC60;
 
     max-width: 30px;
 
@@ -757,7 +771,7 @@ hr {
 
     padding: 10px;
 
-    color: var(--temple-info-link-color)
+    color: #DED2A8
 
 }
 
@@ -769,7 +783,7 @@ textarea {
 
 .reservation-form {
 
-    background-color: var(--body-background-color);
+    background-color: #534A3C;
 
     border-radius: 10px;
 
@@ -783,7 +797,7 @@ textarea {
 
 .reservation-form-fieldset {
 
-    color: var(--main-alternate-background-color);
+    color: #A0AC60;
 
     padding-top: 10px;
 
@@ -793,7 +807,7 @@ textarea {
 
     margin-bottom: 20px;
 
-    border: 2px solid var(--main-alternate-background-color);
+    border: 2px solid #A0AC60;
 
     border-radius: 4px;
 
@@ -801,7 +815,7 @@ textarea {
 
 .reservation-form-class {
 
-    color: var(--main-alternate-background-color);
+    color: #A0AC60;
 
     padding-left: 10px;
 
@@ -811,7 +825,7 @@ textarea {
 
 #submit-button {
 
-    background-color: var(--main-alternate-background-color);
+    background-color: #A0AC60;
 
     color: #FFFFFF;
 
@@ -833,9 +847,9 @@ textarea {
 
 #submit-button:hover {
 
-    background-color: var(--main-alternate-background-color);
+    background-color: #A0AC60;
 
-    color: var(--main-text-color);
+    color: #534A3C;
 
 }
 
@@ -859,25 +873,25 @@ textarea {
 
 #temple-entry-link:link {
 
-    color: var(--main-alternate-background-color);
+    color: #A0AC60;
 
 }
 
 #temple-entry-link:visited {
 
-    color: var(--main-alternate-background-color);
+    color: #A0AC60;
 
 }
 
 #temple-entry-link:hover {
 
-    color: var(--main-text-color);
+    color: #534A3C;
     
 }
 
 #temple-entry-link:active {
 
-    color: var(--main-text-color);
+    color: #534A3C;
     
 }
 
@@ -913,6 +927,10 @@ textarea {
 
     margin-right: auto;
 
+    padding-left: 10px;
+
+    padding-right: 10px;
+
 }
 
 address {
@@ -938,6 +956,10 @@ address {
 .contact2-information-div {
 
     width: 100%;
+
+    margin-left: 10px;
+
+    margin-right: 10px;
 
 }
 
@@ -975,49 +997,49 @@ address {
 
 .contact2-information-div a:link {
 
-    color: var(--main-alternate-background-color);
+    color: #A0AC60;
 
 }
 
 .contact2-information-div a:visited {
 
-    color: var(--main-alternate-background-color);
+    color: #A0AC60;
 
 }
 
 .contact2-information-div a:hover {
 
-    color: var(--main-text-color);
+    color: #534A3C;
 
 }
 
 .contact2-information-div a:active {
 
-    color: var(--main-text-color);
+    color: #534A3C;
 
 }
 
 .service-body-text a:link {
 
-    color: var(--main-alternate-background-color);
+    color: #A0AC60;
 
 }
 
 .service-body-text a:visited {
 
-    color: var(--main-alternate-background-color);
+    color: #A0AC60;
 
 }
 
 .service-body-text a:hover {
 
-    color: var(--main-text-color);
+    color: #534A3C;
 
 }
 
 .service-body-text a:active {
 
-    color: var(--main-text-color);
+    color: #534A3C;
 
 }
 
@@ -1037,7 +1059,7 @@ address {
 
     width: 100%;
 
-    background-color: var(--main-alternate-background-color);
+    background-color: #A0AC60;
 
     color: #FFFFFF;
 
@@ -1101,5 +1123,145 @@ address {
     text-align: center;
 
     font-size: 2em;
+
+}
+
+.centered-floating-text div:after {
+
+    content: ' \00bb';
+
+    opacity: 0;
+
+    top: 0;
+
+    right: -20px;
+
+    transition: 0.5s;
+
+}
+
+.centered-floating-text:hover div:after {
+
+    opacity: 1;
+
+    right: 0;
+
+}
+
+.about-text-div {
+
+    padding-left: 10px;
+    
+    padding-right: 10px;
+
+}
+
+.contact-information-div {
+
+    padding-left: 10px;
+    
+    padding-right: 10px;
+
+}
+
+.temple-page-title {
+
+    padding-left: 10px;
+
+}
+
+.service-body-text h2, .service-body-text hr {
+
+    margin-left: 10px;
+
+}
+
+.reservation-body-text h2, .reservation-body-text hr, .reservation-body-text p {
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+}
+
+.contact-main-div h2, .contact-main-div hr {
+
+    margin-left: 10px;
+
+    margin-right: 10px;
+
+}
+
+footer {
+
+    text-decoration: none;
+
+}
+
+.social-media-icon-div {
+
+    margin-top: 10px;
+
+}
+
+.social-media-icon-div a  {
+
+    margin-left: 5px;
+
+    margin-right: 5px;
+
+}
+
+.social-media-icon-div a img {
+
+    max-width: 16px;
+
+}
+
+.reservation-form-input-div {
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+strong img {
+
+    max-width: 16px;
+
+}
+
+iframe {
+
+    border-width: 0px;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+.contact-span a:link{
+
+    color: #A0AC60;
+
+}
+
+.contact-span a:visited{
+
+    color: #A0AC60;
+
+}
+
+.contact-span a:hover{
+
+    color: #534A3C;
+
+}
+
+.contact-span a:active{
+
+    color: #534A3C;
 
 }
