@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Home page for Temple Inn & Suites">
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+
+        <link rel="shortcut icon" href="templeinn.ico">
+
+        <title>
+            Home | Temple Inn & Suites
+        </title>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="logo-title-div">
+                <div>
+
+                    <a href="index.html"><img src="images/templelogo.png" alt="Temple Inn & Suites Logo" class="site-logo"></a>
+
+                </div>
+
+                <div class="title-heading-div">
+
+                    <h1>Temple Inn & Suites</h1>
+                    <h2 class="tagline">Your home away from home</h2>
+
+                </div>
+            </div>
+
+
+
+        </header>
+
+        <nav>
+
+            <ul class="navigation">
+
+                <li>
+
+                    <a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a>
+                    
+                </li>        
+
+                <li>
+
+                    <a href="index.html">Home</a>
+
+                </li>
+
+                <li>
+
+                    <a href="temples.html">Temples</a>
+
+                </li>
+
+                <li>
+
+                    <a href="reservations.html" class="current-page">Reservations</a>
+
+                </li>
+
+                <li>
+
+                    <a href="services.html">Services</a>
+
+                </li>
+
+                <li>
+
+                    <a href="contact.html">Contact</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <main>
+
+            <div class="reservation-body-text">
+
+                <h2>Why Make a Reservation?</h2>
+
+                <hr class="weird-reservation-form-spacing">
+
+                <p>The Lord has commanded us to be prepared in all things.
+                    Temple Inn & Suites helps temple patrons to be prepared for their time in the temple by removing worries about accommodations, child care, and much more.
+                    We seek to promote a spirit of peace and reverence so that patrons will be in the right mindset before entering the House of the Lord.
+                    We believe that by preparing oneself mentally and physically, members of the church will find their visits to the temple more inspiring and enlightening. The church has <a id="temple-entry-link" href="https://www.churchofjesuschrist.org/study/manual/preparing-to-enter-the-holy-temple/preparing-to-enter-the-holy-temple?lang=eng" target="_blank">provided additional aids</a> for use in preparing to enter the temple.</p>
+
+                <h2>Make Your Reservation</h2>
+
+                <hr class="weird-reservation-form-spacing">
+
+                <form class="reservation-form" method="GET" action="thanks.html">
+
+                    <fieldset class="reservation-form-fieldset">
+
+                        <legend class="reservation-form-class">Room Details</legend>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="hotel-location">*Location:</label>
+
+                            <select id="hotel-location" name="hotel-location" class="input-required" required>
+
+                                <option value="Gilbert">Gilbert</option>
+
+                                <option value="Ogden">Ogden</option>
+
+                                <option value="Manti">Manti</option>
+                                
+                                <option value="San Diego">San Diego</option>
+
+                            </select>
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+                            
+                            <label for="visit-start-date">Start Date:</label>
+
+                            <input type="date" id="visit-start-date" name="visit-start-date">
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="visit-end-date">End Date:</label>
+
+                            <input type="date" id="visit-end-date" name="visit-end-date">
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="number-of-rooms">*Number of Rooms:</label>
+
+                            <input type="number" min="1" max="5" id="number-of-rooms" name="number-of-rooms" class="input-required" required>
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="room-type">*Room Type:</label>
+
+                            <select id="room-type" name="room-type" class="input-required" required>
+
+                                <option value="Single Bedroom - Single Bed">Single Bedroom - Single Bed</option>
+
+                                <option value="Single Bedroom - Two Beds">Single Bedroom - Two Beds</option>
+
+                                <option value="Two Bedrooms - Two Beds">Two Bedrooms - Two Beds</option>
+
+                                <option value="Two Bedrooms - Two Beds - Kitchenette">Two Bedrooms - Two Beds - Kitchenette</option>
+
+                            </select>
+
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="reservation-form-fieldset">
+
+                        <legend class="reservation-form-class">Guest Information</legend>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="guest-full-name">*Full Name:</label>
+
+                            <input pattern="[a-zA-Z ]{5,}" type="text" id="guest-full-name" name="guest-full-name" class="input-required" required>
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+                        
+                            <label for="guest-email">Email:</label>
+
+                            <input type="email" id="guest-email" name="guest-email">
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="guest-phone">*Phone:</label>
+
+                            <input type="tel" id="guest-phone" name="guest-phone" class="input-required" required>
+
+                        </div>
+
+                        <div class="reservation-form-input-div">
+
+                            <label for="guest-state">Home State/Country:</label>
+
+                            <input type="text" id="guest-state" name="guest-state">
+
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="reservation-form-fieldset">
+
+                        <legend class="reservation-form-class">Other</legend>
+
+                        <div class="reservation-form-input-div">
+
+                            <div>
+
+                                <label for="special-accommodations">Special Accommodations/Comments:</label>
+                            
+                            </div>      
+                            
+                            <br>
+
+                            <div>
+
+                                <textarea rows="4" columns="50" id="special-accommodations" name="special-accommodations"></textarea>
+
+                            </div>
+
+                        </div>
+                    
+                    </fieldset>
+
+                    <input type="submit" value="Send" id="submit-button">
+
+                </form>
+
+                <div class="reservation-quote-div">
+                    <p class="reservation-quote">Organize yourselves; prepare every needful thing, and establish a house, even a house of prayer, a house of fasting, a house of faith, a house of learning, a house of glory, a house of order, a house of God;</p>
+                    <hr>
+                    <p class="reservation-quote">- Doctrine & Covenants 109:8</p>
+                </div>
+
+          </div>
+
+
+
+        </main>
+
+
+
+        <footer>
+
+
+            <small>&copy; 2019 Temple Inn & Suites</small>
+
+
+        </footer>
+
+
+
+
+
+
+        <script src="js/togglemenu.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Alice',
+                        'Quicksand'
+                    ]
+                }
+            });
+        </script>
+
+    </body>
+
+</html>

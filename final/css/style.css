@@ -88,7 +88,11 @@ header {
 
     display: flex;
 
-    justify-content: space-evenly;
+    flex-direction: column;
+
+    justify-content: center;
+
+    text-align: center;
 
 }
 
@@ -102,7 +106,7 @@ header {
 
 .title-heading-div h1 {
 
-    padding-top: 40px;
+    /*padding-top: 40px;*/
 
 }
 
@@ -114,9 +118,11 @@ nav {
 
     color: var(--navbar-text-color);
 
-    display: flex;
+    /* display: flex;
 
-    justify-content: center;
+    align-items: center; 
+
+    justify-content: center; */
 
     font-size: 1.25em;
 
@@ -126,25 +132,43 @@ nav {
 
 nav ul {
 
-    list-style: none;
-
     max-width: 768px;
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: center;
 
     text-align: center;
 
+    list-style: none; 
+
+    flex-direction: column; 
+
     padding-left: 0px;
 
+    margin-top: 0px;
+
+    margin-bottom: 0px;
+
+}
+
+
+
+nav li {
+
+    width: 100%;
+
     display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
 
 }
 
 
 
 nav a {
+
+    display: block;
 
     transition-duration: 1s;
 
@@ -247,31 +271,44 @@ main {
 
 .centered-floating-text {
 
-    position: absolute;
+    position: static;
 
-    top: 50%;
+    /* background-color: rgba(83, 74, 60, 1); */
 
-    left: 50%;
+    /* max-width: 400px; */
 
-    transform: translate(-50%, -50%);
+    text-align: center;
 
-    background-color: rgba(83, 74, 60, .8);
+    box-sizing: border-box;
 
-    padding: 1.5em;
-
-}
-
-.centered-floating-text a {
-
+    padding: 30px;
+    
     text-decoration: none;
 
     color: var(--floating-reservation-text-color);
 
-    padding: 2em;
-
     font-size: 1.1em;
 
 }
+
+.centered-floating-text div {
+
+    background-color: rgba(83, 74, 60, 1);
+
+    max-width: 400px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+
+    margin-top: 60px;
+
+}
+
 
 .centered-floating-text a:link {
 
@@ -279,19 +316,19 @@ main {
 
 }
 
-.centered-floating-text a:visited {
+.centered-floating-text:visited {
 
     color: var(--floating-reservation-text-color);
 
 }
 
-.centered-floating-text a:hover {
+.centered-floating-text:hover {
 
     color: var(--floating-reservation-text-color);
 
 }
 
-.centered-floating-text a:active {
+.centered-floating-text:active {
 
     color: var(--floating-reservation-text-color);
 
@@ -302,7 +339,7 @@ main {
 
 .banner-image {
 
-    width: 100%;
+    display: none;
 
 }
 
@@ -322,17 +359,21 @@ main {
 
     display: flex;
 
+    flex-direction: column;
+
 }
 
 .temple-summary-div div {
 
-    width: 50%;
+    width: 100%;
 
 }
 
 .temple-summary-photo-div img {
 
     max-width: 100%;
+
+    margin-bottom: -3px;
 
 }
 
@@ -370,12 +411,14 @@ main {
 
     padding-bottom: 50px;
 
+    flex-direction: column;
+
 }
 
 
 .contact-information-div div {
 
-    width: 50%;
+    width: 100%;
 
 }
 
@@ -396,6 +439,14 @@ footer {
 
 }
 
+
+.temple-summary-photo-div img {
+
+    width: 100%;
+
+}
+
+
 .single-temple-info-container-div {
 
     max-width: 992px;
@@ -406,35 +457,37 @@ footer {
 
 }
 
-.single-temple-info-container-div:nth-child(even) {
+.single-temple-info-container-div {
 
     display: flex;
 
-    flex-direction: row-reverse;
+    flex-direction: column;
 
-}
-
-.single-temple-info-container-div:nth-child(odd) {
-
-    display: flex;
-
-    flex-direction: row;
+    margin-bottom: 0px;
 
 }
 
 .single-temple-info-image-div {
 
-    width: 50%;
+    width: 100%;
+
+    margin-bottom: -3px;
+
+}
+
+.single-temple-info-image-div img {
+
+    width: 100%;
 
 }
 
 .single-temple-info-text-div {
 
-    padding-top: 5%;
-
-    width: 50%;
+    width: 100%;
 
     text-align: center;
+
+    background-color: var(--main-alternate-background-color);
 
 }
 
@@ -477,7 +530,20 @@ footer {
 }
 
 
+.color-highlight {
 
+    color: var(--main-text-color);
+
+}
+
+
+
+.click-text:before {
+
+    color: var(--main-text-color);
+    content: "Click ";
+
+}
 
 
 
@@ -498,8 +564,9 @@ footer {
 
     position: absolute;
     z-index: 1;
-    top: -5px;
-    left: 105%;
+
+    top: 100%;
+    left: 40%;
     
 }
 
@@ -529,8 +596,6 @@ footer {
     margin-top: 60px;
 
     margin-bottom: 60px;
-
-    background-color: var(--main-alternate-background-color);
 
     color: #FFFFFF;
     
@@ -566,3 +631,475 @@ footer {
 
 }
 
+
+
+hr {
+
+    height: 6px;
+
+    color: var(--main-alternate-background-color);
+
+    background-color: var(--main-alternate-background-color);
+
+    border-color: var(--main-alternate-background-color);
+
+    max-width: 30px;
+
+    margin-left: 0px;
+
+    border: 0px;
+
+}
+
+.temple-page-title {
+
+    margin-top: 60px;
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.tagline {
+
+    -webkit-animation: fade 3s;
+    -moz-animation: fade 3s;
+    -ms-animation: fade 3s;
+    -o-animation: fade 3s;
+    -animation: fade 3s;
+
+}
+
+@keyframes fade{
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+    
+}
+
+@-moz-keyframes fade {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+@-webkit-keyframes fade {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+@-ms-keyframes fade {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+@-o-keyframes fade {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+.navigation li {
+
+    display: none; 
+
+}
+
+.navigation li:first-child {
+
+    display: block; 
+
+}
+
+.responsive li {
+
+    display: block;
+
+}
+
+.service-body-text {
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-bottom: 60px;
+
+}
+
+.reservation-body-text {
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.reservation-form-input-div {
+
+    padding: 10px;
+
+    color: var(--temple-info-link-color)
+
+}
+
+textarea {
+
+    width: 100%;
+
+}
+
+.reservation-form {
+
+    background-color: var(--body-background-color);
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin-bottom: 60px;
+
+    font-size: 1.3em;
+
+}
+
+.reservation-form-fieldset {
+
+    color: var(--main-alternate-background-color);
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    border: 2px solid var(--main-alternate-background-color);
+
+    border-radius: 4px;
+
+}
+
+.reservation-form-class {
+
+    color: var(--main-alternate-background-color);
+
+    padding-left: 10px;
+
+    padding-right: 10px;
+
+}
+
+#submit-button {
+
+    background-color: var(--main-alternate-background-color);
+
+    color: #FFFFFF;
+
+    border: none;
+
+    border-radius: 5px;
+
+    padding: 10px;
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+#submit-button:hover {
+
+    background-color: var(--main-alternate-background-color);
+
+    color: var(--main-text-color);
+
+}
+
+.reservation-body-text h2 {
+
+    margin-top: 60px; 
+
+}
+
+.service-body-text h2 {
+
+    margin-top: 60px; 
+
+}
+
+.weird-reservation-form-spacing {
+
+    margin-bottom: 60px;
+
+}
+
+#temple-entry-link:link {
+
+    color: var(--main-alternate-background-color);
+
+}
+
+#temple-entry-link:visited {
+
+    color: var(--main-alternate-background-color);
+
+}
+
+#temple-entry-link:hover {
+
+    color: var(--main-text-color);
+    
+}
+
+#temple-entry-link:active {
+
+    color: var(--main-text-color);
+    
+}
+
+.reservation-form-input-div input, .reservation-form-input-div select, .reservation-form-input-div textarea {
+
+    border-radius: 8px;
+
+}
+
+.reservation-quote {
+
+    font-size: 2em;
+
+}
+
+.reservation-quote-div {
+
+    max-width: 500px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-bottom: 60px;
+
+}
+
+.contact-main-div {
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+address {
+
+    font-style: normal;
+
+}
+
+.contact-email-div {
+
+    margin-bottom: 60px;
+
+}
+
+.contact-map-div {
+
+    margin-bottom: 60px;
+
+    width: 100%;
+
+}
+
+.contact2-information-div {
+
+    width: 100%;
+
+}
+
+.contact-map-flex-div {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.contact-main-div h2 {
+
+    margin-top: 60px;
+
+}
+
+.contact2-information-div p {
+
+    padding-right: 30px;
+
+}
+
+.contact-form-heading {
+
+    margin-top: 30px!important;
+
+}
+
+.contact-form-hr {
+
+    margin-bottom: 30px;
+
+}
+
+.contact2-information-div a:link {
+
+    color: var(--main-alternate-background-color);
+
+}
+
+.contact2-information-div a:visited {
+
+    color: var(--main-alternate-background-color);
+
+}
+
+.contact2-information-div a:hover {
+
+    color: var(--main-text-color);
+
+}
+
+.contact2-information-div a:active {
+
+    color: var(--main-text-color);
+
+}
+
+.service-body-text a:link {
+
+    color: var(--main-alternate-background-color);
+
+}
+
+.service-body-text a:visited {
+
+    color: var(--main-alternate-background-color);
+
+}
+
+.service-body-text a:hover {
+
+    color: var(--main-text-color);
+
+}
+
+.service-body-text a:active {
+
+    color: var(--main-text-color);
+
+}
+
+
+
+
+
+.services-flex-div {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.services-flex-text-div {
+
+    width: 100%;
+
+    background-color: var(--main-alternate-background-color);
+
+    color: #FFFFFF;
+
+    box-sizing: border-box;
+
+    padding: 50px;
+
+}
+
+.services-flex-image-div {
+
+    width: 100%;
+
+}
+
+.services-flex-image-div img {
+
+    width: 100%;
+
+}
+
+.service-body-text hr {
+
+    margin-bottom: 30px;
+
+}
+
+
+.thanks-body-div {
+
+    max-width: 992px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-top: 100px;
+
+    margin-bottom: 300px;
+
+}
+
+.thanks-image-div {
+
+    max-width: 200px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+.thanks-image-div img {
+
+    width: 100%;
+
+}
+
+.thanks-text-div {
+
+    text-align: center;
+
+    font-size: 2em;
+
+}

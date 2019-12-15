@@ -33,7 +33,7 @@
                 <div class="title-heading-div">
 
                     <h1>Temple Inn & Suites</h1>
-                    <h2>Your home away from home</h2>
+                    <h2 class="tagline">Your home away from home</h2>
 
                 </div>
             </div>
@@ -44,7 +44,13 @@
 
         <nav>
 
-            <ul>
+            <ul class="navigation">
+
+                <li>
+
+                    <a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a>
+                    
+                </li>
 
                 <li>
 
@@ -79,25 +85,22 @@
             </ul>
 
 
-
-
-            &nbsp;
-
-
         </nav>
 
 
         <main>
 
-            <h2>Temples We Service</h2>
+            <div class="temple-page-title">
+                <h2>Temples We Service</h2>
 
-            <hr>
+                <hr>
+            </div>
 
             <div class="temple-info-page-container-div">
 
                 <div class="single-temple-info-container-div">
                     <div class="single-temple-info-image-div">
-                        <img src="images/gilbertarizonatemple.jpg" alt="Photo of the Gilbert, Arizona temple">
+                        <img src="images/gilbertarizonatemple2.jpg" alt="Photo of the Gilbert, Arizona temple">
                     </div>
                     <div class="single-temple-info-text-div">
                         <p>Temple: <span id="temple-name-0"></span></p>
@@ -106,7 +109,7 @@
                         <p>Email: <a href="" id="temple-email-0"></a></p>
                         
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple services:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple services:
                                 <ul id="temple-services-0" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
                             </span>
@@ -115,7 +118,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple history:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple history:
                                 <ul id="temple-history-0" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
                             </span>
@@ -124,7 +127,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple ordinance schedules:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple ordinance schedules:
                                 <ul class="tooltiptext tooltiphide no-list-style">
 
                                     <li>Baptistry Schedule:</li>
@@ -149,7 +152,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple closures:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple closures:
                                 
                                 <ul id="temple-closure-schedule-0" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
@@ -160,19 +163,21 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view endowment schedule:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view endowment schedule:
                                 
                                 <ul id="temple-endowment-schedule-0" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
 
                             </span>
                         </div>
+
+                        <p>Current Weather: <span id="current-weather-0"></span></p>
                     </div>
                 </div>
 
                 <div class="single-temple-info-container-div">
                     <div class="single-temple-info-image-div">
-                        <img src="images/ogdentemple-Original.jpg" alt="Photo of the Ogden, Utah temple">
+                        <img src="images/ogdentemple.jpg" alt="Photo of the Ogden, Utah temple">
                     </div>
                     <div class="single-temple-info-text-div">
                         <p>Temple: <span id="temple-name-1"></span></p>
@@ -181,7 +186,7 @@
                         <p>Email: <a href="" id="temple-email-1"></a></p>
                         
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple services:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple services:
                                 <ul id="temple-services-1" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
                             </span>
@@ -190,7 +195,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple history:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple history:
                                 <ul id="temple-history-1" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
                             </span>
@@ -199,7 +204,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple ordinance schedules:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple ordinance schedules:
                                 <ul class="tooltiptext tooltiphide no-list-style">
 
                                     <li>• Baptistry Schedule:</li>
@@ -224,7 +229,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple closures:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple closures:
                                 
                                 <ul id="temple-closure-schedule-1" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
@@ -235,19 +240,21 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view endowment schedule:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view endowment schedule:
                                 
                                 <ul id="temple-endowment-schedule-1" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
 
                             </span>
                         </div>
+
+                        <p>Current Weather: <span id="current-weather-1"></span></p>
                     </div>
                 </div>
 
                 <div class="single-temple-info-container-div">
                     <div class="single-temple-info-image-div">
-                        <img src="images/mantiutahtemplepond-Original.jpg" alt="Photo of the Manti, Utah temple">
+                        <img src="images/mantiutahtemple.jpg" alt="Photo of the Manti, Utah temple">
                     </div>
                     <div class="single-temple-info-text-div">
                         <p>Temple: <span id="temple-name-2"></span></p>
@@ -256,7 +263,7 @@
                         <p>Email: <a href="" id="temple-email-2"></a></p>
                         
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple services:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple services:
                                 <ul id="temple-services-2" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
                             </span>
@@ -265,7 +272,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple history:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple history:
                                 <ul id="temple-history-2" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
                             </span>
@@ -274,7 +281,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple ordinance schedules:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple ordinance schedules:
                                 <ul class="tooltiptext tooltiphide no-list-style">
 
                                     <li>Baptistry Schedule:</li>
@@ -299,7 +306,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple closures:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple closures:
                                 
                                 <ul id="temple-closure-schedule-2" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
@@ -310,19 +317,21 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view endowment schedule:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view endowment schedule:
                                 
                                 <ul id="temple-endowment-schedule-2" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
 
                             </span>
                         </div>
+
+                        <p>Current Weather: <span id="current-weather-2"></span></p>
                     </div>
                 </div>
 
                 <div class="single-temple-info-container-div">
                     <div class="single-temple-info-image-div">
-                        <img src="images/sandiegotemple-Original.jpg" alt="Photo of the San Diego, California temple">
+                        <img src="images/sandiegotemple.jpg" alt="Photo of the San Diego, California temple">
                     </div>
                     <div class="single-temple-info-text-div">
                         <p>Temple: <span id="temple-name-3"></span></p>
@@ -331,7 +340,7 @@
                         <p>Email: <a href="" id="temple-email-3"></a></p>
                         
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple services:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple services:
                                 <ul id="temple-services-3" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
                             </span>
@@ -340,7 +349,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple history:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple history:
                                 <ul id="temple-history-3" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
                             </span>
@@ -349,7 +358,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple ordinance schedules:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple ordinance schedules:
                                 <ul class="tooltiptext tooltiphide no-list-style">
 
                                     <li>Baptistry Schedule:</li>
@@ -374,7 +383,7 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view temple closures:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view temple closures:
                                 
                                 <ul id="temple-closure-schedule-3" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
@@ -385,13 +394,14 @@
                         <br>
 
                         <div class="tooltip">
-                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)">Click to view endowment schedule:
+                            <span onclick="showHideToolTip(event)" onmouseout="showHideToolTipMouseOut(event)" class="click-text">to view endowment schedule:
                                 
                                 <ul id="temple-endowment-schedule-3" class="tooltiptext tooltiphide no-list-style">
                                 </ul>
 
                             </span>
                         </div>
+                        <p>Current Weather: <span id="current-weather-3"></span></p>
                 </div>
 
             </div>
@@ -400,6 +410,7 @@
 
         <div class="temple-quote-div">
             <p class="temple-quote">And again, verily thus saith the Lord: Let the work of my temple, and all the works which I have appointed unto you, be continued on and not cease; and let your diligence, and your perseverance, and patience, and your works be redoubled, and you shall in nowise lose your reward, saith the Lord of Hosts.</p>
+            <hr>
             <p class="temple-quote">- Doctrine & Covenants 127:4</p>
         </div>
                 
@@ -424,6 +435,8 @@
 
         <script src="js/gettempleinformation.js"></script>
         <script src="js/showtempleinfotooltip.js"></script>
+        <script src="js/gettempleweather.js"></script>
+        <script src="js/togglemenu.js"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 

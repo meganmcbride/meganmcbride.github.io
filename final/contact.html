@@ -1,3 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Home page for Temple Inn & Suites">
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/medium.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+
+        <link rel="shortcut icon" href="templeinn.ico">
+
+        <title>
+            Home | Temple Inn & Suites
+        </title>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="logo-title-div">
+                <div>
+
+                    <a href="index.html"><img src="images/templelogo.png" alt="Temple Inn & Suites Logo" class="site-logo"></a>
+
+                </div>
+
+                <div class="title-heading-div">
+
+                    <h1>Temple Inn & Suites</h1>
+                    <h2 class="tagline">Your home away from home</h2>
+
+                </div>
+            </div>
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370329947!2d-77.0977258483213!3d38.98325594938187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1575511895627!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        </header>
+
+        <nav>
+
+            <ul class="navigation">
+
+                <li>
+
+                    <a href="#" onclick="toggleMenu()" class="menubutton">&#9776; Menu</a>
+                    
+                </li>
+        
+                <li>
+
+                    <a href="index.html">Home</a>
+
+                </li>
+
+                <li>
+
+                    <a href="temples.html">Temples</a>
+
+                </li>
+
+                <li>
+
+                    <a href="reservations.html">Reservations</a>
+
+                </li>
+
+                <li>
+
+                    <a href="services.html">Services</a>
+
+                </li>
+
+                <li>
+
+                    <a href="contact.html" class="current-page">Contact</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <main>
+
+            <div class="contact-main-div">
+                                    
+                <h2>Contact Us</h2>
+
+                <hr>
+
+                <div class="contact-map-flex-div">
+
+                    <div class="contact2-information-div">
+        
+                        <p>We have booking agents available to speak to twenty-four hours a day, six days a week.
+                            If you have any questions about pricing, long-term accommodations, amenities, or anything else, our agents are more than happy to assist you.
+                            We also always appreciate feedback about the quality of our hotels, so if you encounter any problems during your stay please don't hesitate to reach out to us.</p>
+        
+                        <p>Temple Inn & Suites was founded in 2007 in Bethesda, MD. We started with a single hotel serving patrons of the Washington, D.C. Temple but have since expanded to four different locations all across the United States.
+                            We are dedicated to providing quality lodgings for temple patrons, and in maintaining an atmosphere of peace and reverence for all who stay at our hotels.
+                            Our corporate headquarters are still located in Bethesda, on the ground floor of our hotel and less than 10 minutes from the Washington, D.C. Temple.</p>            
+
+                        <div><strong>Phone:</strong> <a href="tel:555-555-5555">555-555-5555</a></div>
+
+                        <address><strong>Address:</strong> 4800 Montgomery Ln #300, Bethesda, MD 20814</address>
+
+                        <div class="contact-email-div"><strong>Email:</strong> <a href="mailto:contact@templeinnandsuites.com">contact@templeinnandsuites.com</a></div>
+
+                    </div>
+
+                    <div class="contact-map-div">
+
+                        <iframe title="Map of our corporate office location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370329947!2d-77.0977258483213!3d38.98325594938187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1575511895627!5m2!1sen!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                    </div>
+
+                </div>
+
+                <h2 class="contact-form-heading">Let's Talk</h2>
+
+                <hr class="contact-form-hr">
+
+                <form class="reservation-form" method="GET" action="thanks.html">
+    
+                        <fieldset class="reservation-form-fieldset">
+    
+                            <legend class="reservation-form-class">Contact Information</legend>
+    
+                            <div class="reservation-form-input-div">
+    
+                                <label for="guest-full-name">*Full Name:</label>
+    
+                                <input pattern="[a-zA-Z ]{5,}" type="text" id="guest-full-name" name="guest-full-name" class="input-required" required>
+    
+                            </div>
+    
+                            <div class="reservation-form-input-div">
+                            
+                                <label for="guest-email">Email:</label>
+    
+                                <input type="email" id="guest-email" name="guest-email">
+    
+                            </div>
+    
+                            <div class="reservation-form-input-div">
+    
+                                <label for="guest-phone">*Phone:</label>
+    
+                                <input type="tel" id="guest-phone" name="guest-phone" class="input-required" required>
+    
+                            </div>
+    
+                        </fieldset>
+    
+                        <fieldset class="reservation-form-fieldset">
+    
+                            <legend class="reservation-form-class">Feedback</legend>
+    
+                            <div class="reservation-form-input-div">
+    
+                                <div>
+    
+                                    <label for="contact-message">*How Can We Help?</label>
+                                
+                                </div>      
+                                
+                                <br>
+    
+                                <div>
+    
+                                    <textarea rows="4" columns="50" id="contact-message" name="contact-message" required></textarea>
+    
+                                </div>
+    
+                            </div>
+                        
+                        </fieldset>
+    
+                        <input type="submit" value="Send" id="submit-button">
+    
+                    </form>
+
+            </div>
+
+        </main>
+
+
+
+        <footer>
+
+
+            <small>&copy; 2019 Temple Inn & Suites</small>
+
+
+        </footer>
+
+
+
+
+
+
+        <script src="js/togglemenu.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+        <script>
+            WebFont.load({
+                google: {
+                    families: [
+                        'Alice',
+                        'Quicksand'
+                    ]
+                }
+            });
+        </script>
+
+    </body>
+
+</html>
