@@ -629,7 +629,7 @@ footer {
 
 .temple-quote {
 
-    font-size: 2em;
+    font-size: 1.5em;
 
 }
 
@@ -642,6 +642,10 @@ footer {
     margin-right: auto;
 
     margin-bottom: 60px;
+
+    padding-left: 15px;
+
+    padding-right: 15px;
 
 }
 
@@ -903,7 +907,7 @@ textarea {
 
 .reservation-quote {
 
-    font-size: 2em;
+    font-size: 1.5em;
 
 }
 
@@ -916,6 +920,10 @@ textarea {
     margin-right: auto;
 
     margin-bottom: 60px;
+
+    padding-left: 15px;
+
+    padding-right: 15px;
 
 }
 
@@ -1222,7 +1230,7 @@ footer {
 
     display: flex;
 
-    justify-content: space-between;
+    flex-direction: column;
 
 }
 

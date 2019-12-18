@@ -282,4 +282,49 @@
         margin-bottom: 0px;
     
     }
+
+    .reservation-form-input-div {
+
+        flex-direction: row;
+    
+        justify-content: space-between;
+    
+    }
+
+    .temple-quote {
+
+        font-size: 2em;
+    
+    }
+    
+    .temple-quote-div {
+    
+        padding-left: 0px;
+    
+        padding-right: 0px;
+    
+    }
+
+    .reservation-quote {
+
+        font-size: 2em;
+    
+    }
+    
+    .reservation-quote-div {
+    
+        max-width: 500px;
+    
+        margin-left: auto;
+    
+        margin-right: auto;
+    
+        margin-bottom: 60px;
+    
+        padding-left: 0px;
+    
+        padding-right: 0px;
+    
+    }
+    
 }
