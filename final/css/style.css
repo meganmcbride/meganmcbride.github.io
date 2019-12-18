@@ -1379,3 +1379,9 @@ footer small a:active {
     margin-top: 60px;
 
 }
+
+fieldset {
+
+    min-width: 0;
+
+}
